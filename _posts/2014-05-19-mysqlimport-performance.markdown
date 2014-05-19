@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "mysqlimport performance"
-date:   2014-03-26 00:05:20
+date:   2014-05-19
 categories: mysql
 ---
 
