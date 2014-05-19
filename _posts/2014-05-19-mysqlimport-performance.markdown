@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "mysqlimport performance"
+date:   2014-03-26 00:05:20
+categories: mysql
+---
+
+
 I had to import a very large dataset (about 2.5M rows -- OK, not that large,
 but large enough to cut my teeth on it). After a quick search on google I found
 out that the most efficient way to import data into mysql is to use
