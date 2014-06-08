@@ -13,8 +13,9 @@ indexes. Second you should have a very high bandwith since it will be the true
 bottleneck.
 
 After some tries and tweakings I have come to use this procedure
-1) Use a sister table for each import. I didn't directly use the target table,
-but I used a sister table with the same schema which I erase at the beginning
+1) Use a dedicated table for each import. I didn't directly use the target table,
+but I used a dedicated table with the same schema of the data to import.
+Using a dedicated table allows me to truncate it at the beginning
 of each import.
 2) Truncate the sister table at the beginning of each import
 3) Drop any index on the sister table before begin to import
