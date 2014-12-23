@@ -4,13 +4,142 @@
  <title>Thinny</title>
  <link href="https://davidevernizzi.github.io//atom.xml" rel="self"/>
  <link href="https://davidevernizzi.github.io//"/>
- <updated>2014-12-23T12:51:54+01:00</updated>
+ <updated>2014-12-23T15:18:12+01:00</updated>
  <id>https://davidevernizzi.github.io/</id>
  <author>
    <name>Davide Vernizzi</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>AWS Elastic Beanstalk and SugarCRM</title>
+   <link href="https://davidevernizzi.github.io//blog/aws-elastic-beanstalk-and-sugarcrm"/>
+   <updated>2014-12-23T00:00:00+01:00</updated>
+   <id>https://davidevernizzi.github.io//blog/aws-elastic-beanstalk-and-sugarcrm</id>
+   <content type="html">&lt;p&gt;SugarCRM is an awful piece of software. At least the version I am forced to
+use — I guess newer versions are better, but we are stuck with an old version
+which is, well, old.&lt;/p&gt;
+
+&lt;p&gt;We now are using EBS for production servers which is a very good thing, but
+dealing with Sugar is so difficult. In particular we had two problems:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Moving the sessions to the database&lt;/li&gt;
+&lt;li&gt;Dealing with studio in production&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The first issue was quite easy and I will talk about this later.&lt;/p&gt;
+
+&lt;p&gt;The second was not that quick. The problem is that studio makes a lot of
+changes on the local file system, but, of course, this brings a lot of issues:
+it does not scale since changes are not propagated to the other instance; and
+it is not upgrade safe since each time you push a new version in production,
+all the changes made with studio are lost.&lt;/p&gt;
+
+&lt;p&gt;In principle it should be enough to log on the instance where the changes were
+made (not obvious in a highly replicated scenario, but fortunately this was not
+the case), make a commit and push the changes back to the repo. &lt;/p&gt;
+
+&lt;p&gt;Unluckily when EBS updates the code it finally removes the .git directory -m
+and, therefore, you have not a repo anymore. We solved this latter issue by
+copying the .git directory in production, make the commit, push it to the repo
+and remove the directory.&lt;/p&gt;
+
+&lt;p&gt;Therefore, our workflow with Sugar and EBS is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Work as much as possible locally with Vagrant&lt;/li&gt;
+&lt;li&gt;Whenever there are changes in production made with studio:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;local# cd local_sugar_dir
+local# scp -r .git ec2-user@ip_of_machine_with_changes:
+local# ssh ec2-user@ip_of_machine_with_changes
+
+remote# sudo mv .git /var/www/html
+remote# cd /var/www/html
+remote# git status
+remote# sudo git commit -a -m &amp;#39;...&amp;#39;
+remote# sudo git format-patch -1 HEAD
+
+local# wget ip_of_machine_with_changes/file.patch
+
+remote# sudo rm -rf file.patch .git
+
+local# git apply --stat file.patch
+local# git apply --check file.patch
+local# git am &amp;lt; file.patch
+local# git push
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That&amp;#39;s all.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How to import lots of rows on MySql</title>
+   <link href="https://davidevernizzi.github.io//blog/how-to-import-lots-of-rows-everyday"/>
+   <updated>2014-11-18T00:00:00+01:00</updated>
+   <id>https://davidevernizzi.github.io//blog/how-to-import-lots-of-rows-everyday</id>
+   <content type="html">&lt;p&gt;Let’s say you have a lot of data to import. Let’s say you don’t want to do it everyday without any downtime. Here is how I do this.&lt;/p&gt;
+
+&lt;p&gt;As an example, I will use a table that contains the customer base. Let’s call it &lt;code&gt;tbl_customer&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Import with &lt;code&gt;mysqlimport&lt;/code&gt; to a staging table, we will call it &lt;code&gt;tbl_customer_import&lt;/code&gt;. It is easier to keep on the staging table the same structure that the original data, even if our &lt;code&gt;tbl_customer&lt;/code&gt; will have a different schema.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;$ mysqlimport --delete --lines-terminated-by=&amp;#39;\r\n&amp;#39; --ignore-lines=1 --compress -h DB_SERVER -u DB_USER -p tbl_name.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;It you are importing to Amazon RDS databases, you alsa have to use the &lt;code&gt;local&lt;/code&gt; switch.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mark rows to delete and delete them&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;/* Mark to delete */
+update prod_table
+set to_keep=0;
+
+update prod_table t, stage_table s
+set t.to_keep=1
+where t.field=s.fiels;
+
+/* Actually delete them */
+delete from prod_table
+where to_keep=0;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Update modified rows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;update tbl_customer c, tbl_customer_import i
+set
+c.phone_number=i.phone_number,
+c.mobile_number=i.mobile_number,
+/*
+ upadte other fields
+ */
+where c.customer_id = i.customer_id;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Insert new rows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;insert ignore into tbl_customer (
+   customer_id,
+   phone_number,
+   mobile_number,
+   /*
+    Other fields
+    */
+)
+select
+   customer_id,
+   phone_number,
+   mobile_number,
+   /*
+    Other fields
+    */
+from tbl_customer_import;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That&amp;#39;s it.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>mysqlimport performance</title>

@@ -4,16 +4,16 @@
 	
 	<link href="//gmpg.org/xfn/11" rel="profile">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<link rel="canonical" href="https://davidevernizzi.github.io//blog/mysqlimport-performance" />
-	<meta name="description" content="I had to import a very large dataset (about 2.5M rows -- OK, not that large, but large enough to..." />
-	<meta property="og:description" content="I had to import a very large dataset (about 2.5M rows -- OK, not that large, but large enough to..." />
+	<link rel="canonical" href="https://davidevernizzi.github.io//blog/aws-elastic-beanstalk-and-sugarcrm" />
+	<meta name="description" content="SugarCRM is an awful piece of software. At least the version I am forced to use — I guess newer versions are..." />
+	<meta property="og:description" content="SugarCRM is an awful piece of software. At least the version I am forced to use — I guess newer versions are..." />
 	<meta itemprop="image" content="https://davidevernizzi.github.io//assets/images/icon.png" />
 	<meta property="og:image" content="https://davidevernizzi.github.io//assets/images/icon.png" />
-	<meta property="og:title" content="mysqlimport performance" />
+	<meta property="og:title" content="AWS Elastic Beanstalk and SugarCRM" />
 	<meta property="og:type" content="article" />
-	<meta property="og:url" content="https://davidevernizzi.github.io//blog/mysqlimport-performance" />
+	<meta property="og:url" content="https://davidevernizzi.github.io//blog/aws-elastic-beanstalk-and-sugarcrm" />
 	<meta property="og:site_name" content="Thinny" />
-	<title>mysqlimport performance &middot; Thinny</title>
+	<title>AWS Elastic Beanstalk and SugarCRM &middot; Thinny</title>
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="MobileOptimized" content="320" />
@@ -62,9 +62,9 @@
 </div>
 
 	<div id="post-info" data-stellar-ratio="0.7">
-		<h1>mysqlimport performance</h1>
+		<h1>AWS Elastic Beanstalk and SugarCRM</h1>
 		
-		<a class="site-title" href="https://davidevernizzi.github.io/"><div class="site-icon-small" style="background-image: url(/assets/images/icon.png);"></div>Thinny</a>, in 19 May 2014
+		<a class="site-title" href="https://davidevernizzi.github.io/"><div class="site-icon-small" style="background-image: url(/assets/images/icon.png);"></div>Thinny</a>, in 23 December 2014
 	</div>
 	
 	<div id="nav-icon" style="bottom: 30px;" data-stellar-ratio="4">
@@ -73,15 +73,61 @@
 </header>
 <div id="middle">
 	<div id="article">
-		<p>I had to import a very large dataset (about 2.5M rows -- OK, not that large,
-but large enough to cut my teeth on it). After a quick search on google I found
-out that the most efficient way to import data into mysql is to use
-the <code>mysqlimport</code> command which is shipped with MySql.</p>
+		<p>SugarCRM is an awful piece of software. At least the version I am forced to
+use — I guess newer versions are better, but we are stuck with an old version
+which is, well, old.</p>
 
-<p>It&#39;s amazing how efficient it is. I used it to import <code>cvs</code> files into a MySql
-server. Bot the source and the destination are hostes on AWS, so the network
-time should be small enough. It manages to import aroung 180K rows in less tha
-15 seconds.</p>
+<p>We now are using EBS for production servers which is a very good thing, but
+dealing with Sugar is so difficult. In particular we had two problems:</p>
+
+<ol>
+<li>Moving the sessions to the database</li>
+<li>Dealing with studio in production</li>
+</ol>
+
+<p>The first issue was quite easy and I will talk about this later.</p>
+
+<p>The second was not that quick. The problem is that studio makes a lot of
+changes on the local file system, but, of course, this brings a lot of issues:
+it does not scale since changes are not propagated to the other instance; and
+it is not upgrade safe since each time you push a new version in production,
+all the changes made with studio are lost.</p>
+
+<p>In principle it should be enough to log on the instance where the changes were
+made (not obvious in a highly replicated scenario, but fortunately this was not
+the case), make a commit and push the changes back to the repo. </p>
+
+<p>Unluckily when EBS updates the code it finally removes the .git directory -m
+and, therefore, you have not a repo anymore. We solved this latter issue by
+copying the .git directory in production, make the commit, push it to the repo
+and remove the directory.</p>
+
+<p>Therefore, our workflow with Sugar and EBS is:</p>
+
+<ul>
+<li>Work as much as possible locally with Vagrant</li>
+<li>Whenever there are changes in production made with studio:</li>
+</ul>
+<div class="highlight"><pre><code class="language-text" data-lang="text">local# cd local_sugar_dir
+local# scp -r .git ec2-user@ip_of_machine_with_changes:
+local# ssh ec2-user@ip_of_machine_with_changes
+
+remote# sudo mv .git /var/www/html
+remote# cd /var/www/html
+remote# git status
+remote# sudo git commit -a -m &#39;...&#39;
+remote# sudo git format-patch -1 HEAD
+
+local# wget ip_of_machine_with_changes/file.patch
+
+remote# sudo rm -rf file.patch .git
+
+local# git apply --stat file.patch
+local# git apply --check file.patch
+local# git am &lt; file.patch
+local# git push
+</code></pre></div>
+<p>That&#39;s all.</p>
 
 	</div>
 	
@@ -89,7 +135,7 @@ time should be small enough. It manages to import aroung 180K rows in less tha
 		
 	
 	<script src="https://apis.google.com/js/plusone.js"></script>
-	<div id="g-comments" class="g-comments" data-href="https://davidevernizzi.github.io//blog/mysqlimport-performance" data-width="700" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD"></div>
+	<div id="g-comments" class="g-comments" data-href="https://davidevernizzi.github.io//blog/aws-elastic-beanstalk-and-sugarcrm" data-width="700" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD"></div>
 	<script>
 		var width = $('#comments').width() * 0.9;
 		width = Math.round(width);
@@ -102,10 +148,12 @@ time should be small enough. It manages to import aroung 180K rows in less tha
 </div>
 
 	
-	
-	
-	
-	
+		
+		
+		
+		
+		
+		
 	
 
 <footer class="clean" style="background-image: url(/assets/images/cover.jpg); height: 75%; min-height: 500px;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50" data-stellar-vertical-offset="50">
@@ -113,7 +161,7 @@ time should be small enough. It manages to import aroung 180K rows in less tha
 		<a class="scroll" data-speed="500" href="#article"><span class="genericon genericon-collapse"></span></a>
 	</div>
 	<div id="post-info" data-stellar-ratio="0.5" data-stellar-vertical-offset="120">
-		<h3>Read next</h3>
+		<h3>Featured post</h3>
 		<a href="/blog/how-to-import-lots-of-rows-everyday">
 			<h1>How to import lots of rows on MySql</h1>
 			

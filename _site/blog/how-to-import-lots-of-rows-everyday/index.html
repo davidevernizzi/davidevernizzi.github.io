@@ -4,16 +4,16 @@
 	
 	<link href="//gmpg.org/xfn/11" rel="profile">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<link rel="canonical" href="https://davidevernizzi.github.io//blog/mysqlimport-performance" />
-	<meta name="description" content="I had to import a very large dataset (about 2.5M rows -- OK, not that large, but large enough to..." />
-	<meta property="og:description" content="I had to import a very large dataset (about 2.5M rows -- OK, not that large, but large enough to..." />
+	<link rel="canonical" href="https://davidevernizzi.github.io//blog/how-to-import-lots-of-rows-everyday" />
+	<meta name="description" content="Let’s say you have a lot of data to import. Let’s say you don’t want to do it everyday without..." />
+	<meta property="og:description" content="Let’s say you have a lot of data to import. Let’s say you don’t want to do it everyday without..." />
 	<meta itemprop="image" content="https://davidevernizzi.github.io//assets/images/icon.png" />
 	<meta property="og:image" content="https://davidevernizzi.github.io//assets/images/icon.png" />
-	<meta property="og:title" content="mysqlimport performance" />
+	<meta property="og:title" content="How to import lots of rows on MySql" />
 	<meta property="og:type" content="article" />
-	<meta property="og:url" content="https://davidevernizzi.github.io//blog/mysqlimport-performance" />
+	<meta property="og:url" content="https://davidevernizzi.github.io//blog/how-to-import-lots-of-rows-everyday" />
 	<meta property="og:site_name" content="Thinny" />
-	<title>mysqlimport performance &middot; Thinny</title>
+	<title>How to import lots of rows on MySql &middot; Thinny</title>
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="MobileOptimized" content="320" />
@@ -62,9 +62,9 @@
 </div>
 
 	<div id="post-info" data-stellar-ratio="0.7">
-		<h1>mysqlimport performance</h1>
+		<h1>How to import lots of rows on MySql</h1>
 		
-		<a class="site-title" href="https://davidevernizzi.github.io/"><div class="site-icon-small" style="background-image: url(/assets/images/icon.png);"></div>Thinny</a>, in 19 May 2014
+		<a class="site-title" href="https://davidevernizzi.github.io/"><div class="site-icon-small" style="background-image: url(/assets/images/icon.png);"></div>Thinny</a>, in 18 November 2014
 	</div>
 	
 	<div id="nav-icon" style="bottom: 30px;" data-stellar-ratio="4">
@@ -73,15 +73,64 @@
 </header>
 <div id="middle">
 	<div id="article">
-		<p>I had to import a very large dataset (about 2.5M rows -- OK, not that large,
-but large enough to cut my teeth on it). After a quick search on google I found
-out that the most efficient way to import data into mysql is to use
-the <code>mysqlimport</code> command which is shipped with MySql.</p>
+		<p>Let’s say you have a lot of data to import. Let’s say you don’t want to do it everyday without any downtime. Here is how I do this.</p>
 
-<p>It&#39;s amazing how efficient it is. I used it to import <code>cvs</code> files into a MySql
-server. Bot the source and the destination are hostes on AWS, so the network
-time should be small enough. It manages to import aroung 180K rows in less tha
-15 seconds.</p>
+<p>As an example, I will use a table that contains the customer base. Let’s call it <code>tbl_customer</code>.</p>
+
+<ul>
+<li>Import with <code>mysqlimport</code> to a staging table, we will call it <code>tbl_customer_import</code>. It is easier to keep on the staging table the same structure that the original data, even if our <code>tbl_customer</code> will have a different schema.</li>
+</ul>
+<div class="highlight"><pre><code class="language-text" data-lang="text">$ mysqlimport --delete --lines-terminated-by=&#39;\r\n&#39; --ignore-lines=1 --compress -h DB_SERVER -u DB_USER -p tbl_name.csv
+</code></pre></div>
+<ul>
+<li><p>It you are importing to Amazon RDS databases, you alsa have to use the <code>local</code> switch.</p></li>
+<li><p>Mark rows to delete and delete them</p></li>
+</ul>
+<div class="highlight"><pre><code class="language-text" data-lang="text">/* Mark to delete */
+update prod_table
+set to_keep=0;
+
+update prod_table t, stage_table s
+set t.to_keep=1
+where t.field=s.fiels;
+
+/* Actually delete them */
+delete from prod_table
+where to_keep=0;
+</code></pre></div>
+<ul>
+<li>Update modified rows</li>
+</ul>
+<div class="highlight"><pre><code class="language-text" data-lang="text">update tbl_customer c, tbl_customer_import i
+set
+c.phone_number=i.phone_number,
+c.mobile_number=i.mobile_number,
+/*
+ upadte other fields
+ */
+where c.customer_id = i.customer_id;
+</code></pre></div>
+<ul>
+<li>Insert new rows</li>
+</ul>
+<div class="highlight"><pre><code class="language-text" data-lang="text">insert ignore into tbl_customer (
+   customer_id,
+   phone_number,
+   mobile_number,
+   /*
+    Other fields
+    */
+)
+select
+   customer_id,
+   phone_number,
+   mobile_number,
+   /*
+    Other fields
+    */
+from tbl_customer_import;
+</code></pre></div>
+<p>That&#39;s it.</p>
 
 	</div>
 	
@@ -89,7 +138,7 @@ time should be small enough. It manages to import aroung 180K rows in less tha
 		
 	
 	<script src="https://apis.google.com/js/plusone.js"></script>
-	<div id="g-comments" class="g-comments" data-href="https://davidevernizzi.github.io//blog/mysqlimport-performance" data-width="700" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD"></div>
+	<div id="g-comments" class="g-comments" data-href="https://davidevernizzi.github.io//blog/how-to-import-lots-of-rows-everyday" data-width="700" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD"></div>
 	<script>
 		var width = $('#comments').width() * 0.9;
 		width = Math.round(width);
@@ -114,8 +163,8 @@ time should be small enough. It manages to import aroung 180K rows in less tha
 	</div>
 	<div id="post-info" data-stellar-ratio="0.5" data-stellar-vertical-offset="120">
 		<h3>Read next</h3>
-		<a href="/blog/how-to-import-lots-of-rows-everyday">
-			<h1>How to import lots of rows on MySql</h1>
+		<a href="/blog/aws-elastic-beanstalk-and-sugarcrm">
+			<h1>AWS Elastic Beanstalk and SugarCRM</h1>
 			
 				<h2></h2>
 			
