@@ -5,6 +5,7 @@ permalink:	/blog/:title
 
 # Setup
 baseurl:
+safe: true
 
 title:		Dave
 tagline:	'blog'
