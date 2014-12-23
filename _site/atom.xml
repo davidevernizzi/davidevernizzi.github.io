@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Thinny</title>
+ <link href="https://davidevernizzi.github.io//atom.xml" rel="self"/>
+ <link href="https://davidevernizzi.github.io//"/>
+ <updated>2014-12-23T12:51:54+01:00</updated>
+ <id>https://davidevernizzi.github.io/</id>
+ <author>
+   <name>Davide Vernizzi</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>mysqlimport performance</title>
+   <link href="https://davidevernizzi.github.io//blog/mysqlimport-performance"/>
+   <updated>2014-05-19T00:00:00+02:00</updated>
+   <id>https://davidevernizzi.github.io//blog/mysqlimport-performance</id>
+   <content type="html">&lt;p&gt;I had to import a very large dataset (about 2.5M rows -- OK, not that large,
+but large enough to cut my teeth on it). After a quick search on google I found
+out that the most efficient way to import data into mysql is to use
+the &lt;code&gt;mysqlimport&lt;/code&gt; command which is shipped with MySql.&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s amazing how efficient it is. I used it to import &lt;code&gt;cvs&lt;/code&gt; files into a MySql
+server. Bot the source and the destination are hostes on AWS, so the network
+time should be small enough. It manages to import aroung 180K rows in less tha
+15 seconds.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
