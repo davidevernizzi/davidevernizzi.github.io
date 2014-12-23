@@ -6,7 +6,7 @@ permalink:	/blog/:title
 # Setup
 baseurl:
 
-title:		Thinny
+title:		Dave
 tagline:	'blog'
 description:	'My personal blog.'
 url:		https://davidevernizzi.github.io/
