@@ -32,7 +32,7 @@ and write something like this:
 ```
 
 the last four lines of the `rules` will instruct Yii that GET/POST/PUT/DELETE
-requests to `base_url/api` will be handled by the `ApiController` class within
+requests to `BASEURL/api` will be handled by the `ApiController` class within
 the functions `actionIndex`, `actionCreate`, `actionUpdate`, `actionDelete`
 respectively.
 
@@ -40,3 +40,54 @@ Then, it is necessary to write some basic code for handling the API calls. We
 must at least 1) get the data and 2) authenticate the requests. Moreover, we
 may also want to log calls and so on. We will do all this in the `beforeAction`
 funcion of `ApiController`.
+
+To get data from the request we must take into account the type of the request.
+In the case of a GET, data will be into the `$\_GET` variable. The POST can be
+either a form request either a raw data request (typically a JSON one). In the
+first case its data will be in the `$\_POST` variable, while in the second case
+we must fetch data from PHP raw input stream which can be accessed via
+`php://input`. The PUT and the DELETE only have raw input.
+
+In order to get data from raw input stream, we can write a very simple data
+function like:
+
+```php
+    private function getContent()
+    {
+        if (null === $this->content)
+        {
+            if (0 === strlen(($this->content = file_get_contents('php://input'))))
+            {
+                $this->content = false;
+            }
+        }
+
+        return $this->content;
+    }
+```
+
+Next, we can use such a function to get data according to the request type:
+
+```php
+        switch($_SERVER['REQUEST_METHOD']) {
+        case 'GET':
+            $this->data = $_GET;
+            break;
+        case 'POST':
+            $this->data = CJSON::decode($this->getContent());
+            break;
+        case 'DELETE':
+            $this->data = CJSON::decode($this->getContent());
+            break;
+        case 'PUT':
+            $this->data = CJSON::decode($this->getContent());
+            break;
+        default:
+            // raise some error here
+            break;
+        }
+```
+
+Finally, we must authenticate the request. We can do this in many different
+ways. A very simple one is to use a keyed-digest which will be sent together
+with the request. I won't explain here all the details of a keyed-digest.
