@@ -10,7 +10,7 @@ safe: true
 title:		Dave
 tagline:	'blog'
 description:	'My personal blog.'
-url:		https://davidevernizzi.github.io/
+url:		https://www.vernizzis.it
 commentsystem:	google
 disqus:		example
 
@@ -42,7 +42,7 @@ menu:
 
 copyright:
   author:	Dave
-  url:		https://davidevernizzi.github.io
+  url:		https://www.vernizzis.it
   type_title:	Some rights reserved
   type_url:	http://creativecommons.org/licenses/by-nc/2.5
 
