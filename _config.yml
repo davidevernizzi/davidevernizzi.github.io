@@ -11,7 +11,7 @@ title:		Dave
 tagline:	'blog'
 description:	'My personal blog.'
 url:		https://www.vernizzis.it
-commentsystem:	google
+commentsystem:	__google
 disqus:		example
 
 author:
