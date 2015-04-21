@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "RESTFUL API with yii 1.x"
-date:   2015-MM-DD
+title:  "RESTFUL API with yii 1.1.x"
+date:   2015-04-19
 categories: yii, rest, api
 ---
 
@@ -88,6 +88,4 @@ Next, we can use such a function to get data according to the request type:
         }
 ```
 
-Finally, we must authenticate the request. We can do this in many different
-ways. A very simple one is to use a keyed-digest which will be sent together
-with the request. I won't explain here all the details of a keyed-digest.
+In a next post, I will talk about authentication.
