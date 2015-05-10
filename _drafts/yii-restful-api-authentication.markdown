@@ -59,21 +59,47 @@ user\_id, token, is\_expired`, the server can do something like:
 HMAC is more secure than authorization tokens, but also more difficult to
 implement, test and use.
 
-HMAC is computed with ...
+HMAC is computed by concatenating the parameters with a secret shared with the
+server and by computing an hash over that string.
 
-The first problem is what to sign. A reasonable list is:
+The first problem is what to exactly sign. A reasonable list is:
 
 1. the parameters, lower case, alphabetically ordered
 2. the HTTP verb
 3. the resource
 4. a timestamp
 
-transported within the authorization header
+A second problem is how to transport such a signature. A good solution is to
+use the `authorization` HTML header. In this case you have to choose a format
+for the header because, AFAIK there is not a standard one. The header must
+contains the indication of which user computed the signature, the hash function
+used and the signature itself. I used the following format:
 
-format fo the authorizartion header
+```
+Authorization: hmac johndoe:417b84bd8cc348b246aaf66ac6654c8bc9f3f340
+```
 
-verfication process
+so that by looking at it the server knows the user that made the request.
+Knowing the user is fundamental because the server must look into its database
+to retrieve the shared secret. Once the server retrieved the secret, it can
+proceed with the verification of the signature:
 
-test
-+ client
-+ difficulties due to timestamp + expiration
+1. take all the request parameter, order alphabetically and turn to lower case
+2. concatenate the parameters, the HTTP verb, the resource and the timestamp,
+   just as the client did
+3. concatenate the shared secret and compute the digest
+4. verify that its digest matches the signature
+5. verify that the request is fresh. This is done by the timestamp is not too 
+old. What "too old" means, depends on the application.
+
+Of course, since the client and the server usually live in two different
+computers, the client must also send the exact timestamp used to compute the
+signature. Again, this is passed through the HTTP header. A good candidate
+would be the `Date` header.
+
+Testing authenticated API calls is difficult. The main problems come from the
+timestamp: since each call must be short lived, in theory one should a new hash
+each time he performs a request. Of course this quickly becomes a nightmare
+when the API is under development, so I suggest to first develop the businness
+logic without any signature verification, and only when that part is OK, turn
+on the security stuff for a final test.
