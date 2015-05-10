@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RESTFUL API with yii 1.1.x"
-date:   2015-MM-DD
+date:   2015-05-10
 categories: yii, rest, api, authentication
 ---
 
