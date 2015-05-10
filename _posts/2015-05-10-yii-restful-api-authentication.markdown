@@ -5,7 +5,7 @@ date:   2015-05-10
 categories: yii, rest, api, authentication
 ---
 
-Authentication nin a RESTFUL api is crucial. You don't want to give
+Authentication in a RESTFUL api is crucial. You don't want to give
 unauthorized access to private resources, nor to allow dangerous operations.
 There are many ways to authenticate a request. For instance:
 
@@ -17,6 +17,7 @@ I will not talk about HTTP basic auth here because it is the less handy. The
 other two are interesting and deserve some attention.
 
 == Authorization token ==
+
 Using an authorization token is much easier than using an HMAC, but also lesser
 secure. In particulare, the authorization token authenticate the request,
 allows to verify the authorization, but does not protect the integrity of the
@@ -56,6 +57,7 @@ user\_id, token, is\_expired`, the server can do something like:
 ```
 
 == HMAC ==
+
 HMAC is more secure than authorization tokens, but also more difficult to
 implement, test and use.
 
