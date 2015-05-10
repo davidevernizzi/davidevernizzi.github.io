@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RESTFUL API with yii 1.1.x"
+title:  "Authentication of RESTFUL APIs"
 date:   2015-05-10
 categories: yii, rest, api, authentication
 ---
