@@ -6,11 +6,7 @@ categories: yii, rest, api
 ---
 
 TL;DR: use the `components => urlManager => rules` to use HTTP verbs and don't
-<<<<<<< HEAD
 forget to [authenticate]({% 2015-05-10-yii-restful-api-authentication.markdown %})
-=======
-forget to [authenticate]{% 2015-05-10-yii-restful-api-authentication.markdown %}
->>>>>>> f8fa94d655518eceb79549151794e8d762ba4f97
 the request. Check out on github my [sample
 project](https://github.com/davidevernizzi/yii_restful_api) that provides
 a simple RESTFUL API.
@@ -98,8 +94,4 @@ Next, we can use such a function to get data according to the request type:
         }
 ```
 
-<<<<<<< HEAD
 [Here]({% post_url 2015-05-10-yii-restful-api-authentication %}), I talk about authentication.
-=======
-[Here]{% post_url 2015-05-10-yii-restful-api-authentication %}, I talk about authentication.
->>>>>>> f8fa94d655518eceb79549151794e8d762ba4f97
