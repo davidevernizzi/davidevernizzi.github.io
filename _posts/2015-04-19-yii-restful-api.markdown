@@ -5,6 +5,13 @@ date:   2015-04-19
 categories: yii, rest, api
 ---
 
+TL;DR: use the `components => urlManager => rules` to use HTTP verbs and don't
+forget to
+[authenticate](http://www.vernizzis.it/blog/yii-restful-api-authentication/)
+the request. Check out on github my [sample
+project](https://github.com/davidevernizzi/yii_restful_api) that provides
+a simple RESTFUL API.
+
 Yii 1.x is not the best framework to write RESTFUL APIs. Its main problem it
 the lack of good handling of HTTP verbs other than POST and GET. However, PUT
 and DELETE become essential when one want to write a proper API. Fortunately,
@@ -88,4 +95,4 @@ Next, we can use such a function to get data according to the request type:
         }
 ```
 
-In a next post, I will talk about authentication.
+[Here](http://www.vernizzis.it/blog/yii-restful-api-authentication/), I talk about authentication.
