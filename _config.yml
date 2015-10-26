@@ -37,6 +37,12 @@ menu:
   - title:	Home
     url:	/
 
+  - title:	Docman
+    url:	/docman
+
+  - title:	Gluglu
+    url:	http://gluglu.vernizzis.it/
+
   - title:	About
     url:	/about
 
