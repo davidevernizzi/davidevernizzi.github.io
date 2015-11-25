@@ -11,7 +11,7 @@ allows you to create requests, inspect results, it can sens any HTTP verb,
 custom headers, it supports authentication and [much
 mode](https://getpostman.com).
 
-However, Postmand lacks the capability to generate documentation out of the calls you
+However, Postman lacks the capability to generate documentation out of the calls you
 wrote within it. Of course, since I had all the test calls organized into
 a Postman collection, I looked on the Internet for a tool to convert a Postman
 collection into a text file, but I couldn't find one. Appartently, also
