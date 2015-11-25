@@ -7,12 +7,12 @@ categories: debug, API
 
 Recently I had to find a bug which has shown to be very nasty (not to mention
 not existent). One morning a customer called us claiming that one of our
-services was not working. The service was composed of two APIs: a SOAP one and
-a RESTful one. The problem was reported to be on the SOAP interface (even if
+services was not working. The service is composed of two APIs: a SOAP one and
+a RESTful one. The problem was reported to affect the SOAP interface (even if
 a later analysis show that also the REST API was suffering from the same
 issue).
 
-I wrote a small client to test the API and I found out that some of the request
+I wrote a small client to test the API and I found that some of the request
 were taking too much time to complete. A further analysis show that the
 database was suffering because another project hosted on the same server was
 consuming all the CPU and the available connections.
