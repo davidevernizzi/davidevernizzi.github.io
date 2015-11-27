@@ -70,8 +70,12 @@ possible because they have been taking these kind logs only after the
 programmed maintenance we did to our proxy. I told them that we have this bug
 since more than one year and I suggested they could ask to the actual users if
 they were experiencing any problems. A couple of hours later they reported that
-there were no actual issues, they told us that the code probably uses some kind
-of connection pool and they thanked us for the help.
+there were no actual issues and thanked us for the help.
+
+A final investigation show that the client's implementation used a
+pool to reuse the connections and avoid the overhead necessary to destroy used
+connections and create new ones. The problem lied in our proxy that terminates
+the pending connections after 10 seconds of network inactivity.
 
 So, after a whole day searching for a mysterious bug, I learnt that before
 starting to search for something crazy, one should make sure that that crazy
