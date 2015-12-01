@@ -10,7 +10,7 @@ safe: true
 title:		Dave
 tagline:	'blog'
 description:	'My personal blog.'
-url:		https://www.vernizzis.it
+url:		http://www.vernizzis.it
 commentsystem:	__google
 disqus:		example
 
