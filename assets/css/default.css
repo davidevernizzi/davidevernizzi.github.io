@@ -18,9 +18,9 @@ header {
 
 header, footer {
 	position: relative;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	background-position: top;
-	/*background-size: cover;*/
+	background-size: cover;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
