@@ -5,8 +5,6 @@ date:   2016-01-26
 categories: backbone, marionette, distilled tutorial
 ---
 
-= Nested views with backbone and marionette =
-
 TL;DR; Create 2 models and 2 collections and 2 `ItemView` and 2 `CollectionView`
 
 Let's build the classic TODO application, but also let's group TODOs together.
