@@ -11,21 +11,21 @@ Let's build the classic TODO application, but also let's group TODOs together.
 
 1. Create the TODO model:
 
-```Javascript
-var Todo = Backbone.Model.extend({
-    defaults: {
-        title: 'A new TODO'
-    }
-});
-```
+   ```Javascript
+   var Todo = Backbone.Model.extend({
+       defaults: {
+           title: 'A new TODO'
+       }
+   });
+   ```
 
 2. Create the TODO List model:
 
-```Javascript
-var TodoList = Backbone.Collection.extend({
-    model: Todo
-});
-```
+   ```Javascript
+   var TodoList = Backbone.Collection.extend({
+       model: Todo
+   });
+   ```
 
 3. Now we want to display our TODO list, so we create an `ItemView` to display each TODO and a `CollectionView`
  to display the list:
