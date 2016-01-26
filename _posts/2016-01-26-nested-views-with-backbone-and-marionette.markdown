@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nested views with backbone and marionette"
-date:   2015-01-26
+date:   2016-01-26
 categories: backbone, marionette, distilled tutorial
 ---
 
@@ -12,6 +12,7 @@ TL;DR; Create 2 models and 2 collections and 2 `ItemView` and 2 `CollectionView`
 Let's build the classic TODO application, but also let's group TODOs together.
 
 1. Create the TODO model:
+
 ```Javascript
 var Todo = Backbone.Model.extend({
     defaults: {
@@ -21,8 +22,8 @@ var Todo = Backbone.Model.extend({
 ```
 
 2. Create the TODO List model:
-```Javascript
 
+```Javascript
 var TodoList = Backbone.Collection.extend({
     model: Todo
 });
@@ -30,6 +31,7 @@ var TodoList = Backbone.Collection.extend({
 
 3. Now we want to display our TODO list, so we create an `ItemView` to display each TODO and a `CollectionView`
  to display the list:
+
  ```Javascript
 var TodoView = Backbone.Marionette.ItemView.extend({
     template: '#todo-template'
@@ -71,8 +73,25 @@ var PriorityList = Backbone.Collection.extend({
 ```
 
 note the the `Priority` model has an attribute that will hold the relative TODO list.
+We do not want anything fancy, so we use again basic templates:
+
+```html
+    <script type="text/template" id="priority-template">
+        <div><%= priorityLevel %> priority todos</div>
+        <div class='todolist'>
+        </div>
+    </script>
+
+    <script type="text/template" id="prioritylist-template">
+        <div id='priorities'>
+        </div>
+    </script>
+
+```
+
 
 5. And finally we create the views:
+
 ```Javascript
 var PriorityView = Backbone.Marionette.ItemView.extend({
     template: '#priority-template',
