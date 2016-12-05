@@ -6,9 +6,9 @@ categories: clojurescript
 ---
 
 I'm experimenting with Clojurescript; Clojurescript is wonderful (just as Clojure is)
-and with (Reagent)[http://reagent-project.github.io] it is lots of fun.
+and with [Reagent](http://reagent-project.github.io) it is lots of fun.
 Unfortunately as for much of the Clojure-world there is not much documentation, but
-there is a very handy (recipe book)[https://github.com/reagent-project/reagent-cookbook]
+there is a very handy [recipe book](https://github.com/reagent-project/reagent-cookbook)
 that together with the basic documentation should get you up and running.
 
 I have created a toy application to play with; it has some views and some basic routing.
