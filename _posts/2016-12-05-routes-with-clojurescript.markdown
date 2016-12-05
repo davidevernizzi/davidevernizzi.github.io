@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Routes in ClojureScript"
-date:   2016-12-XX
+date:   2016-12-05
 categories: clojurescript
 ---
 
