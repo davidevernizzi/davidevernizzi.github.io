@@ -22,7 +22,7 @@ I wanted to create a luminus application that uses mongo as DB and that can be r
     version: '2'
 
     services:
-      java:
+      foo:
         image: java:alpine
         ports:
         - "3000:3000"
@@ -31,14 +31,26 @@ I wanted to create a luminus application that uses mongo as DB and that can be r
         depends_on:
         - mongo
         environment:
-        - DATABASE_URL=mongodb://mongo/arrivals_backend4_dev
-        command: java -jar /mnt/arrivals-backend4.jar
+        - DATABASE_URL=mongodb://mongo/foo
+        command: java -jar /mnt/foo.jar
+
+      bar:
+        image: java:alpine
+        ports:
+        - "3001:3000"
+        volumes:
+        - ./:/mnt
+        depends_on:
+        - mongo
+        environment:
+        - DATABASE_URL=mongodb://mongo/bar
+        command: java -jar /mnt/bar.jar
+
 
       mongo:
         image: mongo:latest
         ports:
         - "27017:27017"
-
    ```
    a few note are worth here:
    * `DATABASE_URL`
