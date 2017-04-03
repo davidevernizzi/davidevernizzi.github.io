@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arbitrary Number Of parameters With Compojure"
-date:   2017-MM-DD
+date:   2017-04-03
 categories: clojure, API
 ---
 
