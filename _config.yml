@@ -52,10 +52,3 @@ copyright:
 # Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
 google_analytics: UA-57961528-1
 
-jekyll-crosspost_to_medium:
-  enabled: true #| false
-  cache: .jekyll-crosspost_to_medium
-  status: draft #public (default) | draft | unlisted
-  license: cc-40-by-sa #all-rights-reserved (default) | cc-40-by | cc-40-by-sa | cc-40-by-nd | cc-40-by-nc | cc-40-by-nc-nd | cc-40-by-nc-sa | cc-40-zero | public-domain
-  text: '<p><i>Dave</i></p>',
-  backdate: true # (default) | false
