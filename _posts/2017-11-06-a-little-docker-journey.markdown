@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A lLittle Docker Journey"
-date:   2017-MM-DD
+date:   2017-11-06
 categories: docker, dev, devops
 ---
 
