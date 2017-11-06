@@ -95,7 +95,9 @@ and frontend one is
 # Pull from standard apache image
 FROM httpd:2.4-alpine
 
-# Inject my local config (basically just a virtual host + the httpd.conf that enables virtual hosts)
+# Inject my local config
+# (basically just a virtual host 
+# + the httpd.conf that enables virtual hosts)
 COPY ./httpd_conf/httpd.conf /usr/local/apache2/conf/
 COPY ./httpd_conf/httpd-vhosts.conf /usr/local/apache2/conf/extra/
 
