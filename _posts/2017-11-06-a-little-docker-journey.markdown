@@ -43,12 +43,13 @@ node {
 
     // I build inside docker so I do not have to install dependencies on Jenkins. Note that .m2 directory is shared so it is not downloaded each time
     try {
-        sh "docker run -w /usr/src/app \
-                        -v `pwd`:/usr/src/app \
-                        -v ~/.m2:/home/user/.m2 \
-                        -e LOCAL_USER_ID=\$UID clojure:lein-2.7.1-alpine /bin/bash \
-                        -c 'lein with-profile production ring uberwar; chmod -R a+rwx target'" // I need the ugly chmod at the end
-                                                                                               // because of permission issues.
+        sh "docker run \
+            -w /usr/src/app \
+            -v `pwd`:/usr/src/app \
+            -v ~/.m2:/home/user/.m2 \
+            -e LOCAL_USER_ID=\$UID clojure:lein-2.7.1-alpine /bin/bash \
+            -c 'lein with-profile production ring uberwar; chmod -R a+rwx target'" 
+            // I need the ugly chmod at the end because of permission issues.
     } catch (e) {
         error("build failed")
     }
