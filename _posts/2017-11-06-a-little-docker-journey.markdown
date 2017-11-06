@@ -1,21 +1,19 @@
 ---
 layout: post
-title:  "A lLittle Docker Journey"
+title:  "A Little Docker Journey"
 date:   2017-11-06
 categories: docker, dev, devops
 ---
 
 I did my very first semi-seriuos test with docker; so far I'm pretty happy with what I have got. I have a small project, let's call it `superduper`, composed of
 - frontned written in React
-- backend in Clojure which runs behing Apache Tomcat
-- DB on MongoDB
+- backend in Clojure which runs behind Apache Tomcat
+- database on MongoDB
 
 I wanted a CI workflow so that each time I push on git, Jenkins creates a new build with a new docker image and uploads everything on a Docker registry.
-
 The Docker registry I'm using is a private Nexus3 instance, but it can be anything. My Jenkins instance has the Docker Pipeline plugin installed.
 
 I have created an overall setup with Docker and Jenkins.
-
 Each project (FE, BE) has `Jenksinfile` and a `Dockerfile`.
 
 The `Jenkinsfile` has the following structure:
@@ -45,7 +43,12 @@ node {
 
     // I build inside docker so I do not have to install dependencies on Jenkins. Note that .m2 directory is shared so it is not downloaded each time
     try {
-        sh "docker run -w /usr/src/app -v `pwd`:/usr/src/app -v ~/.m2:/home/user/.m2 -e LOCAL_USER_ID=\$UID clojure:lein-2.7.1-alpine /bin/bash -c 'lein with-profile production ring uberwar; chmod -R a+rwx target'"
+        sh "docker run -w /usr/src/app \
+                        -v `pwd`:/usr/src/app \
+                        -v ~/.m2:/home/user/.m2 \
+                        -e LOCAL_USER_ID=\$UID clojure:lein-2.7.1-alpine /bin/bash \
+                        -c 'lein with-profile production ring uberwar; chmod -R a+rwx target'" // I need the ugly chmod at the end
+                                                                                               // because of permission issues.
     } catch (e) {
         error("build failed")
     }
@@ -71,7 +74,7 @@ node {
 
 The backend `Dockerfile` has the following structure:
 
-```
+```Dockerfile
 # Pull from tomcat
 FROM tomcat:9.0.1-jre8-alpine
 
