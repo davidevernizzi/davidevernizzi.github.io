@@ -173,3 +173,5 @@ services:
     volumes:
       - ./webapp:/usr/local/tomcat/webapps
 ```
+
+which are run as `docker-compose -f docker-compose.yml -f docker-compose.dev.yml up`.
