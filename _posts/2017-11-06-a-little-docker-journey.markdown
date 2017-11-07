@@ -16,6 +16,8 @@ The Docker registry I'm using is a private Nexus3 instance, but it can be anythi
 I have created an overall setup with Docker and Jenkins.
 Each project (FE, BE) has `Jenksinfile` and a `Dockerfile`.
 
+# Jenkins
+
 The `Jenkinsfile` has the following structure:
 
 ```groovy
@@ -73,6 +75,8 @@ node {
 }
 ```
 
+# Docker
+
 The backend `Dockerfile` has the following structure:
 
 ```Dockerfile
@@ -127,7 +131,9 @@ with the following virtual host `httpd-vhost.conf`
 The Jenkins job is confiured to run each time a commit is pushed in git. This creates a new Docker image which is uploaded on Nexus.
 The Docker images is tagged both with the build number and as `latest`.
 
-Finally, there is a `docker-compose.yml` that puts everything together:
+# Docker Compose
+
+There is a `docker-compose.yml` that puts everything together:
 
 ```
 version: "3"
@@ -178,3 +184,37 @@ services:
 ```
 
 which are run as `docker-compose -f docker-compose.yml -f docker-compose.dev.yml up`.
+
+# Digital Ocean
+
+Finally, to run everything in production I have created a droplet on Digital Ocean. It was super easy to do by using `docker-machine`.
+Because I'm lazy, I wrote this easy script
+
+```bash
+#!/bin/sh
+
+export DIGITALOCEAN_IMAGE='centos-7-x64'
+export DIGITALOCEAN_ACCESS_TOKEN='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+export DIGITALOCEAN_REGION='fra1'
+export DIGITALOCEAN_SIZE='2gb'
+
+docker-machine create \
+--driver digitalocean \
+--digitalocean-access-token $DIGITALOCEAN_ACCESS_TOKEN \
+--digitalocean-image $DIGITALOCEAN_IMAGE \
+--digitalocean-region $DIGITALOCEAN_REGION \
+--digitalocean-size $DIGITALOCEAN_SIZE \
+--engine-storage-driver=overlay \
+superduper
+```
+
+Just a quick note, I had to user Centos in place of Ubuntu because it failed to provision the docker environment.
+The most difficult part was to find the correct image name for Centos because (incredibly!) Digital Ocean documentation is
+not precise on this point. I have found a [page](https://gist.github.com/kitschysynq/bab0797516f2e44fc6b7cff002599958) with the list of all the images supported by DO.
+
+# Security
+This is a semi-serious project. I wanted to test docker, docker-compose, Jenkins and docker-image, so I did not focus on security yet. Next steps will be:
+- add letsencrypt
+- add some sort of isolation
+- test docker swarm
+- add production-oriented configuration to docker-compose
