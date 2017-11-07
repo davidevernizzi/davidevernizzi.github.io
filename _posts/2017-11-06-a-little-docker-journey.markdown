@@ -6,7 +6,7 @@ categories: docker, dev, devops
 ---
 
 I did my very first semi-seriuos test with docker; so far I'm pretty happy with what I have got. I have a small project, let's call it `superduper`, composed of
-- frontned written in React
+- frontend written in React
 - backend in Clojure which runs behind Apache Tomcat
 - database on MongoDB
 
