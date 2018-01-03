@@ -29,9 +29,11 @@ something similar. I still prefer the former version, however the latter has nic
 
 
 ![Better git log]({{ site.url }}/images/Better-git-log.png)
+
 Better git log
 
 ![Even better git log]({{ site.url }}/images/Even-better-git-log.png)
+
 Even better git log
 
 After searching a while, I have found that these branches are the decorations printed by `--decoration` and by `%d` in the custom git log. The post used `%C(yellow)%d` to color the decorations in
