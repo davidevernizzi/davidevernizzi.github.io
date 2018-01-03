@@ -5,7 +5,9 @@ date:   2018-01-03
 categories: git
 ---
 
-TL;DR;
+TL;DR:
+
+Use the following commands to have a better git log that works in the shell and to use it as git alias.
 
 ```
 $ git log --graph --branches --oneline --decorate --pretty=format:'%C(yellow)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
