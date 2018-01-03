@@ -8,7 +8,7 @@ categories: git
 TL;DR:
 
 I have moved from a git GUI back to command line interface. I use the following commands to have a better git log that works in the shell and to have it as git alias.
-It's not as good as the GUI, but it's good enough to see whant's going on the repo.
+It's not as good as the GUI, but it's good enough to see what's going on in the repo.
 
 ```
 $ git log --graph --branches --oneline --decorate --pretty=format:'%C(yellow)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
