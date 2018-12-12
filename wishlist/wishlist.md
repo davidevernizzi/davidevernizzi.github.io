@@ -16,3 +16,4 @@
 
 * [Questa tastiera con switch tactile silent](https://www.trulyergonomic.com/store/truly-ergonomic-perfected-tkl-keyboard)
 * attrezzatura fotografica
+* Viaggi
