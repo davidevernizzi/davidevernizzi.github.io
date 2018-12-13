@@ -5,6 +5,10 @@
 * vestiti che mi permettano di non andare a fare shopping
 * libri
 * poster o fotografie o libri di fotografia
+* zaino
+* cibo
+* qualunque cosa per cucinare
+* un tagliere grosso di legno per cucinare da tenere sempre sul piano della cucina
 
 ## Regali personali che vorrei ricevere solo da Robi e bimbi
 
