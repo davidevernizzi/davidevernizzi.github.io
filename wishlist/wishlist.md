@@ -5,18 +5,19 @@
 * vestiti che mi permettano di non andare a fare shopping
 * libri
 * poster o fotografie o libri di fotografia
-* -zaino-
+* ~~zaino~~
 * cibo
-* -un tagliere grosso di legno per cucinare da tenere sempre sul piano della cucina-
+* ~~un tagliere grosso di legno per cucinare da tenere sempre sul piano della cucina~~
 * qualunque cosa per cucinare. In particolare ci mancano:
-    * -colino tutto di metallo-
-    * -uno scolapasta tutto di metallo-
+    * ~~colino tutto di metallo~~
+    * ~~uno scolapasta tutto di metallo~~
     * una pentola a pressione
     * delle ciotole piccole e medie belle
     * delle ciotole per cucinare
     * macina sale e macina pepe
     * una bistecchiera
-* -ciabatte-
+* ~~ciabatte~~
+* Scarponi dopo sci
 
 ## Regali personali che vorrei ricevere e aprore solo con Robi e bimbi
 
@@ -29,6 +30,7 @@
 * [Questa tastiera con switch tactile silent](https://www.trulyergonomic.com/store/truly-ergonomic-perfected-tkl-keyboard)
 * attrezzatura fotografica
 * Viaggi
+* Apple HomePod o cassa equivalente (che funzioni con Apple Music)
 
 ## Regali che in teoria mi piacerebbero, ma che non userò mai
 
