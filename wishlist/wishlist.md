@@ -16,8 +16,10 @@
     * delle ciotole per cucinare
     * macina sale e macina pepe
     * una bistecchiera
+    * una mandolina
 * ~~ciabatte~~
-* Scarponi dopo sci
+* Scarponi da montagna
+* Calze da sci
 
 ## Regali personali che vorrei ricevere e aprore solo con Robi e bimbi
 
