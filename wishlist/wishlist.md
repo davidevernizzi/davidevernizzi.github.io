@@ -21,7 +21,7 @@
 * Scarponi da montagna
 * Calze da sci
 
-## Regali personali che vorrei ricevere e aprore solo con Robi e bimbi
+## Regali personali che vorrei ricevere e aprire solo con Robi e bimbi
 
 * una scacchiera per giocare con Anna
 * qualcosa che abbia a che fare con la mia fissa attuale (al momento corsa)
