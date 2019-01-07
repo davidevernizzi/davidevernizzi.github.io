@@ -20,6 +20,10 @@
 * ~~ciabatte~~
 * Scarponi da montagna
 * Calze da sci
+* Biglietti per l'opera, il teatro o il cinema
+* Abbonamento National Geographics
+* [Sveglia luce naturale(]https://www.besty5.com/migliori-simulatori-alba/)
+* Radio da bagno
 
 ## Regali personali che vorrei ricevere e aprire solo con Robi e bimbi
 
