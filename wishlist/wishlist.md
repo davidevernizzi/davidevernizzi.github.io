@@ -24,6 +24,8 @@
 * Abbonamento National Geographics
 * [Sveglia luce naturale(]https://www.besty5.com/migliori-simulatori-alba/)
 * Radio da bagno
+* Abbonamento musei per Robi, Anna e me
+* Contenitore per biscotti
 
 ## Regali personali che vorrei ricevere e aprire solo con Robi e bimbi
 
