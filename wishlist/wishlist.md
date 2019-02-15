@@ -37,7 +37,8 @@
 
 * [Questa tastiera con switch tactile silent](https://www.trulyergonomic.com/store/truly-ergonomic-perfected-tkl-keyboard)
 * attrezzatura fotografica
-    * Olympus M.ZUIKO Digital 17mm f/1.8
+    * Olympus M.ZUIKO Digital 17mm f/1.8 Argento
+    * Panasonic LUMIX G 25 mm/F1.7 ASPH SLR Argento
 * Viaggi
 * Apple HomePod o cassa equivalente (che funzioni con Apple Music)
 
