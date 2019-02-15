@@ -22,7 +22,7 @@
 * Calze da sci
 * Biglietti per l'opera, il teatro o il cinema
 * Abbonamento National Geographics
-* [Sveglia luce naturale(]https://www.besty5.com/migliori-simulatori-alba/)
+* [Sveglia luce naturale](https://www.besty5.com/migliori-simulatori-alba/)
 * Radio da bagno
 * Abbonamento musei per Robi, Anna e me
 * Contenitore per biscotti
