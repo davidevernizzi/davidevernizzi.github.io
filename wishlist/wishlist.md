@@ -26,6 +26,8 @@
 * Radio da bagno
 * Abbonamento musei per Robi, Anna e me
 * Contenitore per biscotti
+* [carta e inchiostro per scrivere con la stilografica](https://www.jetpens.com/blog/the-best-fountain-pen-paper/pt/730)
+    * Inchiostro azzurro (Iroshizuku Kon-peki Ink)
 
 ## Regali personali che vorrei ricevere e aprire solo con Robi e bimbi
 
@@ -33,15 +35,13 @@
 * qualcosa che abbia a che fare con la mia fissa attuale (al momento corsa)
 * un corso di fotografia/cucina/scacchi
 
-## Regali costosi (chiedere prima)
+## Regali costosi
 
 * [Questa tastiera con switch tactile silent](https://www.trulyergonomic.com/store/truly-ergonomic-perfected-tkl-keyboard)
 * attrezzatura fotografica
     * Olympus M.ZUIKO Digital 17mm f/1.8 Argento
     * Panasonic LUMIX G 25 mm/F1.7 ASPH SLR Argento
 * Viaggi
-* Apple HomePod o cassa equivalente (che funzioni con Apple Music)
+* Apple HomePod o cassa equivalente (che funzioni con Apple Music *E* Siri)
+* [Casper Light](https://casper.com/glow-light/)
 
-## Regali che in teoria mi piacerebbero, ma che non userò mai
-
-* [carta e inchiostro per scrivere con la stilografica](https://www.jetpens.com/blog/the-best-fountain-pen-paper/pt/730)
