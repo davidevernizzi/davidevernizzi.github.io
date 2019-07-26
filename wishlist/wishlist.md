@@ -11,6 +11,7 @@
 * qualunque cosa per cucinare. In particolare ci mancano:
     * ~~colino tutto di metallo~~
     * ~~uno scolapasta tutto di metallo~~
+    * [Macchina per sous-vide](https://www.amazon.it/Sous-Vide-Stick-generazione-temperatura/dp/B01N5K7U2D/)
     * una pentola a pressione
     * delle ciotole piccole e medie belle
     * delle ciotole per cucinare
@@ -42,6 +43,9 @@
     * Olympus M.ZUIKO Digital 17mm f/1.8 Argento
     * Panasonic LUMIX G 25 mm/F1.7 ASPH SLR Argento
 * Viaggi
-* Apple HomePod o cassa equivalente (che funzioni con Apple Music *E* Siri)
+{% comment %}
+* Apple HomePod
+{% endcomment %}
+* Apple AirPods
 * [Casper Light](https://casper.com/glow-light/)
 
