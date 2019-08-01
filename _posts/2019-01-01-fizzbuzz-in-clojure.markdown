@@ -2,7 +2,7 @@
 layout: post
 title:  "FizzBuzz in Clojure"
 date:   2019-01-01
-categories: clojure kata fizzbuzz
+tags: [clojure kata fizzbuzz]
 ---
 
 Taking inspiration from [this](http://iolivia.me/posts/fizzbuzz-in-10-languages/) great post of fizzbuzz written in 10 languages, I have decided to write it in Clojure.
