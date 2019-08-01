@@ -33,7 +33,7 @@ paginate_path: "/page:num/"
 header_pages:
     - _pages/blog.md
     - _pages/about.md
-    - _pages/pictures.md
+      #    - _pages/pictures.md
 
 plugins:
   - jekyll-feed
