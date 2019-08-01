@@ -47,7 +47,7 @@ plugins:
 
 markdown: kramdown
 theme: minimaless
-remote_theme: brettinternet/minimaless # uncomment to allow GitHub to build for GitHub Pages - https://github.com/blog/2464-use-any-theme-with-github-pages
+#remote_theme: brettinternet/minimaless # uncomment to allow GitHub to build for GitHub Pages - https://github.com/blog/2464-use-any-theme-with-github-pages
 
 defaults:
   - scope:
