@@ -1,54 +1,79 @@
-# Dependencies
-#markdown:	redcarpet
-# Permalinks
-permalink:	/blog/:title
+title: my Davide Vernizzi
+author: Davide Vernizzi
+email: davide+blog@vernizzis.it
+description: >
+    My random thoughts, mainly on software and computers.
 
-# Setup
-baseurl:
-safe: true
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.vernizzis.it" # the base hostname & protocol for your site, e.g. http://example.com
 
-title:		Dave
-tagline:	'blog'
-description:	'My personal blog.'
-url:		http://www.vernizzis.it
-commentsystem:	__google
-disqus:		example
+website: https://www.vernizzis.it
+github_username:  davidevernizzi
+linkedin_username: davidevernizzi
+twitter_username: davide_vernizzi
+stackoverflow_username: davidevernizzi
 
-author:
-  name:		'Davide Vernizzi'
-  url:		https://www.twitter.com/davide_vernizzi
+collections:
+  - setup
 
-paginate:	5
+# disqus:
+#   shortname:
 
-# Custom vars
-icon:		/assets/images/icon.png
-cover:		/assets/images/bb.jpg
+# Minimaless date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minimaless:
+  date_format: "%b %-d, %Y"
+preview_posts: true
+permalink: /:title
+paginate: 10 # increase this value to reflect how many posts per page you want
+paginate_path: "/page:num/"
 
-social:
-  - icon:	twitter
-    url:	https://twitter.com/davide_vernizzi
-    desc:	Follow me on twitter
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+    - _pages/blog.md
+    #- _pages/about.md
+    - _pages/contact.md
+    #- _pages/setup.md
+    #- _pages/github.md
 
-  - icon:	github
-    url:	https://github.com/davidevernizzi
-    desc:	Fork me on github
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-archives
+  - jekyll-paginate
 
-menu:
-  - title:	Home
-    url:	/
+markdown: kramdown
+theme: minimaless
+remote_theme: brettinternet/minimaless # uncomment to allow GitHub to build for GitHub Pages - https://github.com/blog/2464-use-any-theme-with-github-pages
 
-  - title:	Docman
-    url:	/docman
+defaults:
+  - scope:
+      path: "_gallery"
+    values:
+      image: true
 
-  - title:	About
-    url:	/about
-
-copyright:
-  author:	Dave
-  url:		https://www.vernizzis.it
-  type_title:	Some rights reserved
-  type_url:	http://creativecommons.org/licenses/by-nc/2.5
-
-# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
-google_analytics: UA-57961528-1
-
+include:
+  - _pages
+  - _gallery
+exclude:
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - tmp

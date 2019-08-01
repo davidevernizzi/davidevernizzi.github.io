@@ -1,4 +1,10 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'github-pages', '>=28'
-gem 'html-proofer', '>=1.4.0'
+gem "minimaless"
+
+gem 'jekyll-feed'
+gem 'jekyll-sitemap'
+gem 'jekyll-gist'
+gem 'jekyll-redirect-from'
+gem 'jekyll-archives'
+gem 'jekyll-paginate'

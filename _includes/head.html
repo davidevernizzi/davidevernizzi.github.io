@@ -1,51 +1,24 @@
 <head>
-	{% capture canonical %}{{ site.url }}{{ site.baseurl }}{% if site.permalink contains '.html' %}{{ page.url }}{% elsif site.permalink contains category_dir %}{{ '/' | page.url | remove:'index.html' | '/' }}{% else %}{{ page.url | remove:'index.html' | '/' }}{% endif %}{% endcapture %}
-	<link href="//gmpg.org/xfn/11" rel="profile">
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">{% if page.article %}
-	<link rel="canonical" href="{{ canonical }}" />
-	<meta name="description" content="{% if page.quote %}{{ page.quote }}{% else %}{{ page.content | strip_html | truncatewords: 20 }}{% endif %}" />
-	<meta property="og:description" content="{% if page.quote %}{{ page.quote }}{% else %}{{ page.content | strip_html | truncatewords: 20 }}{% endif %}" />
-	<meta itemprop="image" content="{% if page.image %}{{ site.url }}{{ site.baseurl }}{{ page.image }}{% else %}{{ site.url }}{{ site.baseurl }}{{ site.icon }}{% endif %}" />
-	<meta property="og:image" content="{% if page.image %}{{ site.url }}{{ site.baseurl }}{{ page.image }}{% else %}{{ site.url }}{{ site.baseurl }}{{ site.icon }}{% endif %}" />
-	<meta property="og:title" content="{{ page.title }}" />
-	<meta property="og:type" content="article" />
-	<meta property="og:url" content="{{ canonical }}" />
-	<meta property="og:site_name" content="{{ site.title }}" />{% endif %}
-	<title>{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}</title>
-	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="HandheldFriendly" content="True" />
-	<meta name="MobileOptimized" content="320" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 900px)" href="{{ site.baseurl }}/assets/css/desktop.css" />
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 899px)" href="{{ site.baseurl }}/assets/css/mobile.css" />
-	<link href="{{ site.baseurl }}/assets/css/genericons.css" type="text/css" rel="stylesheet" />
-	<link href="{{ site.baseurl }}/assets/css/syntax.css" type="text/css" rel="stylesheet" />
-	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fenix:400,400italic">
-	<link rel="apple-touch-icon" href="{{ site.url }}{{ site.baseurl }}{{ site.icon }}">
-	<link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/assets/images/favicon.ico">
-	<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}{{ site.baseurl }}/atom.xml">
-	<script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-2.1.0.min.js"></script>
-	<script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.stellar.min.js"></script>
-	{% if site.google_analytics %}
-	<!-- Asynchronous Google Analytics snippet
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		ga('create', 'UA-57961528-1', 'auto');
-		ga('send', 'pageview');
-	</script>-->
-	{% endif %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57961528-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-        gtag('config', 'UA-57961528-1');
-    </script>
+  {% for file in site.static_files %}
+    {% if file.basename == 'favicon' %}
+      <link rel="icon" type="image/png" href="{{ file.path | relative_url }}">
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+  {% endif %}
 </head>
