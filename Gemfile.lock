@@ -9,6 +9,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
+    exifr (1.3.6)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     ffi (1.11.1)
@@ -33,6 +34,9 @@ GEM
       jekyll (>= 3.6, < 5.0)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
+    jekyll-gallery-generator (1.2.2)
+      exifr (~> 1.3)
+      rmagick (~> 2.12)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
     jekyll-paginate (1.1.0)
@@ -62,6 +66,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rmagick (2.16.0)
     rouge (2.2.1)
     ruby_dep (1.5.0)
     safe_yaml (1.0.5)
@@ -80,6 +85,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll-archives
   jekyll-feed
+  jekyll-gallery-generator
   jekyll-gist
   jekyll-paginate
   jekyll-redirect-from
