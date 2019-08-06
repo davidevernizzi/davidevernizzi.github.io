@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "On Signal"
-date:   2019-08-07
+date:   2019-08-06
 ---
 
 In [this](https://www.schneier.com/blog/archives/2019/08/facebook_plans_.html) article Bruce Schneier (quite rightly) complains about the security of WhatsApp next features and the possible impact on society. At some point, he claims that *"Of course alternatives like Signal will exist for those who don't want to be subject to Facebook's content moderation"* and in one of the comments a reader says that *"Deleting whatsapp and installing Signal (Or other) takes less than 5 minutes. There just isn't any excuse anymore. Do it. Do it now. Right now"*.
