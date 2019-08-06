@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "On Signal"
+date:   2019-08-07
+---
+
+In [this](https://www.schneier.com/blog/archives/2019/08/facebook_plans_.html) article Bruce Schneier (quite rightly) complains about the security of WhatsApp next features and the possible impact on society. At some point, he claims that *"Of course alternatives like Signal will exist for those who don't want to be subject to Facebook's content moderation"* and in one of the comments a reader says that *"Deleting whatsapp and installing Signal (Or other) takes less than 5 minutes. There just isn't any excuse anymore. Do it. Do it now. Right now"*.
+
+Unfortunately, while technically this is true, from a user point of view, this is just not possible. We use communication tools to, well, communicate and too often we cannot choose the app we get to use, because it is imposed by others (e.g. the other recipients of the communication). In many parts of the world, WhatsApp is the de-facto communication medium, widely used and adopted, and it is just not possible to avoid it. Not to mention that Signal has a bullshitty [business model](/On-Business-Models).
+
+The hard truth is that this type of applications must be regulated by wise politics and
+not left to the greedy hands of super companies. Unfortunately, these days it is difficult to be optimistic about any wise politics coming to regulate behemots like Facebook or Google.

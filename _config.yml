@@ -44,7 +44,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-archives
   - jekyll-paginate
-  - jekyll-gallery-generator
+    #  - jekyll-gallery-generator
 
 markdown: kramdown
 #theme: minimaless
