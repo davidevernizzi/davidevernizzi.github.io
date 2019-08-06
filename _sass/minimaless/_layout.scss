@@ -189,12 +189,12 @@
 .landing-content .contact-icons a, .site-footer .contact-icons a {
     color: #FFF;
     &:hover {
-      color: $pastel-red;
+      color: $highligher-yellow;
     }
     .keybase-icon {
       fill: #FFF;
       &:hover {
-        fill: $pastel-red;
+        fill: $highligher-yellow;
       }
     }
   }
@@ -219,7 +219,7 @@
   a {
     color: #EEE;
     &:hover {
-      color: $pastel-red;
+      color: $highligher-yellow;
     }
   }
 }
