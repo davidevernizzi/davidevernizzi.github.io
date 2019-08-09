@@ -1,0 +1,32 @@
+- Frontend development:
+    primary:
+        - JavaScript
+        - React.js
+        - React Native
+        - ClojureScript
+        - HTML/CSS
+- Backend development:
+    primary:
+        - Clojure
+        - Ruby on Rails
+        - Node.js
+        - Python
+        - PHP
+        - Java
+        - MySQL
+        - MongoDB
+        - RabbitMQ
+        - REST
+        - GraphQL
+        - Microservice architecture
+- Devops:
+    primary:
+        - AWS stack
+        - Docker
+        - Kubernetes
+        - CI/CD
+        - Jenkins
+        - Chef.io
+        - Vagrant
+        - Linux
+        - Bash

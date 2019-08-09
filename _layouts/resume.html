@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="resume" itemscope itemtype="http://schema.org/BlogPosting">
+            {% for section in site.data.resume.sections %}
+                <div class="section {{ section.id }}">
+                    {% if section.hideTitle != true %}
+                        <h2 id="{{ section.id }}">
+                            {{ section.name }}
+                        </h2>
+                    {% endif %}
+
+                    {% capture section_layout %}resume/{{section.layout}}.html{% endcapture %}
+                    {% for hash in site.data.resume %}
+                      {% if hash[0] == section.id %}
+                        {% assign blurb = hash[1] %}
+                        {% include {{section_layout}} %}
+                      {% endif %}
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </article>
+      </div>
+    </main>
+  </body>
+
+</html>
+

@@ -1,0 +1,35 @@
+- org:  Etiqa SRL
+  role: Lead Developer
+  #location: San Francisco, CA
+  when: Jan 2016 - Present
+  short: Etiqa is a software development company focused on providing quality products in business-critical projects. It operates in areas such as healthcare, automotive, and the gaming industry. Etiqa has developed proprietary products and processes designed to minimize cost and deliver projects on time.
+  bullets: 
+      - Together with another senior engineer, I led the redesign of the company’s main project, a custom CRM built for one of the major healthcare insurance companies in the USA. This task, which required splitting the legacy Java code into microservices written in Clojure that communicate using an event bus based on RabbitMQ, took two months and laid the basis for all the successive developments. The system which was once made of a single Java application is now composed by 9 Clojure microservices, two legacy Java services and one JavaScript frontend. As a result, the application is now easier to maintain and develop.
+      - To better handle the development process of this application, a custom continuous integration/continuous deploy workflow was created. I have contributed to its design and I actually coded part of it. Our CI/CD flow is now composed of more than 15 JenkinsCI jobs and requires no manual intervention. After being used in the first project, the same concept has successfully been applied to all the other projects of the company.
+      - I twice led the migration from our existing cloud service provider to a new one. For the last migration, I refactored our architecture using Chef.io. The resulting system is defined by a common configuration shared among all the environments, including development, QA, staging and production.
+      - I personally handled the deployment in production of our largest application, defining the procedures and implementing scripts to automate them. Moreover, I am currently taking care of the maintenance of 13 production servers and 5 development and QA servers.
+      - I actively am contributing to our new projects by helping write the documentation and the proposals, and by contributing to the initial design of the technical solutions.
+      - Since I have joined the company, I have explored virtually any new technology adopted; I have pioneered the usage of Clojure, the microservice architecture, and Chef.io and Docker for DevOps. Moreover I have investigated enterprise tools like PEGA PRPC and Veeva.
+      - I designed and wrote an internal tool that streamlined the QA operations of the company. The tool is now used by our QA engineers on a daily basis and has been employed to run more than 200K test scenarios during the past years. 
+
+- org:  Ennova SRL
+  role: Full Stack Developer
+  when: Nov 2011 - Jan 2016
+  short: Ennova is a technology company that targets the digital transformation of enterprise businesses. It has streamlined a number of processes for companies operating in telecommunications and as energy utilities.
+  bullets:
+      - I managed a team of 5 people for the design and implementation of a utility mobile and web application for an energy provider. The application integrates data from 5 different sources, has 6M+ contracts and 30M+ invoices. I personally wrote the most critical parts.
+      - I created an API that gets called 220K+ times per day with an average response time of 75 ms.
+      - I contributed to the digitalization of many business processes for telephone companies, resulting in a dramatic increase of efficiency.
+      - I helped to redesign the CRM solution for a major telephone company. We reduced the number of multiple calls by 30% and their duration by aggregating all the previous tools that the CRM agents used. The CRM is used by 350+ users and handles 3.5K+ tickets per day.
+      - I designed the cloud infrastructure used to provide services to clients. For the time I have been in the company, I was the reference for the IT architecture evolution.
+      - Beside the day-to-day working activities, I supervised new employees and taught and enforced good programming practices such as TDD, CI, and CD.
+
+- org:  Politecnico di Torino, Computer security research group (TORSEC)
+  role: Research assistant
+  when: Mar 2010 - May 2012
+  short: TORSEC is the research group of Politecnico di Torino that works in the security. Beside training graduate students, it participates in many different research projects, sponsored by the European Union, together with other European Universities and companies.
+  bullets:
+      - I coordinated Politecnico di Torino participation in two European research projects. The research projects were respectively focused on trusted computing and security of cloud computing.
+      - During my last year as a postdoc, I carried on the work in a Europe-wide development project, aimed at creating an authentication framework that makes it possible for EU citizens to use their own national electronic identification schemes to access public services in other EU countries.
+      - One of the tasks I have enjoyed more, has been training students (ranging from undergraduate to PhD). Together with another senior researcher, I have co-managed a team of 4 junior researcher and PhD students in the TClouds research project.
+      - I contributed to the concept of Trusted Channel and developed it, basing it on OpenSSL. The results were published as a scientific paper, presented at one of the most important security conferences, and implemented as a patch to OpenSSL.

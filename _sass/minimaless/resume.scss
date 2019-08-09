@@ -1,0 +1,260 @@
+.resume {
+  -webkit-animation: fadein .5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein .5s; /* Firefox < 16 */
+  -ms-animation: fadein .5s; /* Internet Explorer */
+  -o-animation: fadein .5s; /* Opera < 12.1 */
+  animation: fadein .5s;
+}
+
+.resume {
+    a {
+        color: $text-color;
+        font-weight: bold;
+        border-bottom: 1px solid $grey-color;
+        &:hover {
+            color: $grey-color;
+            text-decoration: none;
+        }
+    }
+
+    h2 {
+        color: $pastel-red;
+    }
+
+    h3 {
+        margin: $spacing-unit/2 0 0 0;
+    }
+
+    .bio {
+        .name {
+            @include relative-font-size(2);
+
+            @include media-query($on-laptop) {
+                @include relative-font-size(1.8);
+            }
+            display: block;
+            font-weight: bold;
+            border-bottom: 1px solid #eaecef;
+        }
+
+        .sub-row {
+            margin: $spacing-unit/2 0 $spacing-unit 0;
+        }
+
+        .email, .site {
+            @include media-query($on-laptop) {
+                @include relative-font-size(1.8);
+            }
+            margin-right: 10px;
+        }
+    }
+
+    .skills {
+    }
+
+    .professional, .education {
+        .role {
+            font-weight: bold;
+        }
+        .role, .when, .location {
+            margin-right: 10px;
+        }
+    }
+}
+
+.resume-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li h2 {
+    margin: 0 0 $spacing-unit / 4 0;
+    line-height: 1em;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-author {
+  font-style: italic;
+}
+
+.post-link {
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  margin-top: $spacing-unit / 2;
+  @include relative-font-size(2.625);
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1 {
+    @include relative-font-size(2);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.8);
+    }
+    display: block;
+    border-bottom: 1px solid #eaecef;
+  }
+
+  h2 {
+    @include relative-font-size(1.85);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.7);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.625);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1 {
+    @include relative-font-size(2);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.8);
+    }
+    display: block;
+    border-bottom: 1px solid #eaecef;
+  }
+
+  h2 {
+    @include relative-font-size(1.85);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.7);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.625);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1 {
+    @include relative-font-size(2);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.8);
+    }
+    display: block;
+    border-bottom: 1px solid #eaecef;
+  }
+
+  h2 {
+    @include relative-font-size(1.85);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.7);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.625);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1 {
+    @include relative-font-size(2);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.8);
+    }
+    display: block;
+    border-bottom: 1px solid #eaecef;
+  }
+
+  h2 {
+    @include relative-font-size(1.85);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.7);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.625);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
+
+}
+
