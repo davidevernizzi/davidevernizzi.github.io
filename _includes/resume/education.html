@@ -1,0 +1,30 @@
+<section class="education">
+    <h2>Education</h2>
+
+{% for section in blurb %}
+		<section class="eitem">
+			<header>
+                <h3 class="name">{{ section.org  }}</h3>
+			</header>
+			<span class="position">
+                {{ section.role }}
+			</span>
+
+			<span class="startDate">
+                {{ section.when  }}
+			</span>
+
+			<div class="summary">
+                <p><p>{{ section.short }}</p></p>
+			</div>
+            {% if section.bullets %}
+			<ul class="highlights">
+                {% for bullet in section.bullets %}
+                <li>{{ bullet | markdownify }}</li>
+                {% endfor %}
+			</ul>
+            {% endif %}
+		</section>
+{% endfor %}
+	</section>
+

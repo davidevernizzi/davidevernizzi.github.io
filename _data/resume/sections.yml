@@ -11,14 +11,14 @@
 
 - name: Skills
   id: skills
-  layout: cloud
+  layout: skills
 
-- name: Professional
-  id: professional
-  layout: block
+- name: Experience
+  id: experience
+  layout: experience
 
 - name: Education
   id: education
-  layout: block
+  layout: education
 
 
