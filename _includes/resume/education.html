@@ -2,7 +2,7 @@
     <h2>Education</h2>
 
 {% for section in blurb %}
-		<section class="eitem">
+		<section class="item">
 			<header>
                 <h3 class="name">{{ section.org  }}</h3>
 			</header>
@@ -20,7 +20,7 @@
             {% if section.bullets %}
 			<ul class="highlights">
                 {% for bullet in section.bullets %}
-                <li>{{ bullet | markdownify }}</li>
+                <li>{{ bullet }}</li>
                 {% endfor %}
 			</ul>
             {% endif %}
