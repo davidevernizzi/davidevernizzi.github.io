@@ -11,6 +11,7 @@ permalink: /wishlist/
 * poster o fotografie o libri di fotografia
 * ~~zaino~~
 * cibo
+* un grattaschiena
 * ~~un tagliere grosso di legno per cucinare da tenere sempre sul piano della cucina~~
 * qualunque cosa per cucinare. In particolare ci mancano:
     * ~~colino tutto di metallo~~
@@ -42,7 +43,7 @@ permalink: /wishlist/
 
 ## Regali costosi
 
-* [Questa tastiera con switch tactile silent](https://www.trulyergonomic.com/store/truly-ergonomic-perfected-tkl-keyboard)
+* [Questa tastiera con switch Cherry MX Blue](https://www.wasdkeyboards.com/index.php/products/code-keyboard/code-104-key-mechanical-keyboard-2930.html)
 * attrezzatura fotografica
     * Olympus M.ZUIKO Digital 17mm f/1.8 Argento
     * Panasonic LUMIX G 25 mm/F1.7 ASPH SLR Argento
@@ -50,5 +51,5 @@ permalink: /wishlist/
 {% comment %}
 * Apple HomePod
 {% endcomment %}
-* Apple AirPods
+* ~~Apple AirPods~~
 * [Casper Light](https://casper.com/glow-light/)
