@@ -32,9 +32,25 @@
 
   <body>
       <div id="resume">
+        {% if page.type %}
+            {% for section in site.data.resume[page.type].sections %}
+                <div class="section {{ section.id }}">
+                    {% capture section_layout %}resume/{{page.type}}/{{section.layout}}.html{% endcapture %}
+
+
+                    {% for hash in site.data.resume[page.type] %}
+                      {% if hash[0] == section.id %}
+                        {% assign blurb = hash[1] %}
+                        {% include {{section_layout}} %}
+                      {% endif %}
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        {% else %}
             {% for section in site.data.resume.sections %}
                 <div class="section {{ section.id }}">
                     {% capture section_layout %}resume/{{section.layout}}.html{% endcapture %}
+
                     {% for hash in site.data.resume %}
                       {% if hash[0] == section.id %}
                         {% assign blurb = hash[1] %}
@@ -43,6 +59,7 @@
                     {% endfor %}
                 </div>
             {% endfor %}
+        {% endif %}
       </div>
   </body>
 
