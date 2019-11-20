@@ -9,4 +9,8 @@ gem 'jekyll-redirect-from'
 gem 'jekyll-archives'
 gem 'jekyll-paginate'
 
-gem 'jekyll-gallery-generator'
+gem 'jekyll', '~> 3.6'
+
+group :jekyll_plugins do
+  gem 'jekyll-algolia'
+end

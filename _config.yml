@@ -2,21 +2,21 @@ title: Davide Vernizzi
 author: Davide Vernizzi
 email: davide+blog@vernizzis.it
 description: >
-    My random thoughts, mainly on software and computers.
+  My random thoughts, mainly on software and computers.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.vernizzis.it" # the base hostname & protocol for your site, e.g. http://example.com
 
 website: https://www.vernizzis.it
-github_username:  davidevernizzi
+github_username: davidevernizzi
 linkedin_username: davidevernizzi
 twitter_username: davide_vernizzi
 stackoverflow_username: davidevernizzi
 
 collections:
-    tils:
-        output: true
-        permalink: /:collection/:name
+  tils:
+    output: true
+    permalink: /:collection/:name
 
 # disqus:
 #   shortname:
@@ -33,9 +33,9 @@ paginate_path: "/page:num/"
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-    - _pages/blog.md
-    - _pages/about.md
-      #    - _pages/pictures.md
+  - _pages/blog.md
+  - _pages/about.md
+    #    - _pages/pictures.md
 
 google_analytics: UA-57961528-1
 
@@ -81,15 +81,18 @@ exclude:
   - Rakefile
   - tmp
 
-
-gallery:
-  dir: pictures             # Path to the gallery
-  symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
-  title: "Photos"           # Title for gallery index page
-  title_prefix: "Photos: "  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
-  sort_field: "date_time"   # How to sort galleries on the index page.
-                            # Possible values are: title, date_time, best_image
-  thumbnail_size:
-    x: 400                  # max width of thumbnails (in pixels)
-    y: 400                  # max height of thumbnails (in pixels)
+algolia:
+  application_id: 1W6FUT9JSZ
+  index_name: jekyll # You can replace that with whatever name you want
+  search_only_api_key: b2602f7028b2de50aea03626da66ae37
+# gallery:
+#   dir: pictures             # Path to the gallery
+#   symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
+#   title: "Photos"           # Title for gallery index page
+#   title_prefix: "Photos: "  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
+#   sort_field: "date_time"   # How to sort galleries on the index page.
+#                             # Possible values are: title, date_time, best_image
+#   thumbnail_size:
+#     x: 400                  # max width of thumbnails (in pixels)
+#     y: 400                  # max height of thumbnails (in pixels)
 
