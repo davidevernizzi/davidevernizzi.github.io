@@ -16,7 +16,7 @@
         - MySQL
         - MongoDB
         - RabbitMQ
-	- Kafka
+        - Kafka
         - REST
         - GraphQL
         - Microservice architecture
