@@ -18,7 +18,7 @@ permalink: /wishlist/
     * ~~uno scolapasta tutto di metallo~~
     * [Macchina per sous-vide](https://www.amazon.it/Sous-Vide-Stick-generazione-temperatura/dp/B01N5K7U2D/)
     * ~~una pentola a pressione~~ 
-    * delle ciotole piccole e medie belle
+    * ~~delle ciotole piccole e medie belle~~
     * delle ciotole per cucinare
     * macina sale e macina pepe
     * una bistecchiera
@@ -29,14 +29,13 @@ permalink: /wishlist/
 * ~~ciabatte~~
 * [Kapla](https://www.amazon.it/Kapla-280-Libro-blu-3/dp/B000ZBVEAE/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=kapla&qid=1571476752&s=kitchen&sr=1-1-catcorr)
 * Scarponi da montagna
-* Grattaschiena
 * Calze da sci
 * Biglietti per l'opera, il teatro o il cinema
 * Abbonamento National Geographics
 * [Sveglia luce naturale](https://www.besty5.com/migliori-simulatori-alba/)
 * Radio da bagno
 * Abbonamento musei per Robi, Anna e me
-* Contenitore per biscotti
+* ~~Contenitore per biscotti~~
 * [carta e inchiostro per scrivere con la stilografica](https://www.jetpens.com/blog/the-best-fountain-pen-paper/pt/730)
     * Inchiostro azzurro (Iroshizuku Kon-peki Ink)
 

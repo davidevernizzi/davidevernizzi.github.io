@@ -8,14 +8,15 @@
 - Backend development:
     primary:
         - Clojure
+        - PHP
         - Ruby on Rails
         - Node.js
         - Python
-        - PHP
         - Java
         - MySQL
         - MongoDB
         - RabbitMQ
+	- Kafka
         - REST
         - GraphQL
         - Microservice architecture
