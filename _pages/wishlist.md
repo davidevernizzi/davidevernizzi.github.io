@@ -57,3 +57,4 @@ permalink: /wishlist/
 {% endcomment %}
 * ~~Apple AirPods~~
 * [Casper Light](https://casper.com/glow-light/)
+* Un abbonamento a [Masterclass](https://www.masterclass.com/gift)
