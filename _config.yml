@@ -85,10 +85,10 @@ exclude:
   - Rakefile
   - tmp
 
-algolia:
-  application_id: 1W6FUT9JSZ
-  index_name: jekyll # You can replace that with whatever name you want
-  search_only_api_key: b2602f7028b2de50aea03626da66ae37
+#algolia:
+#  application_id: 1W6FUT9JSZ
+#  index_name: jekyll # You can replace that with whatever name you want
+#  search_only_api_key: b2602f7028b2de50aea03626da66ae37
 # gallery:
 #   dir: pictures             # Path to the gallery
 #   symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
