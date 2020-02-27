@@ -84,5 +84,7 @@ $content-height:   calc(100vh - #{$footer-height} - #{$header-height} - 121px);
 @import
 "minimaless/base",
 "minimaless/layout",
-"minimaless/syntax-highlighting"
-;
+"minimaless/syntax-highlighting",
+"fontawesome/fontawesome.scss",
+"fontawesome/solid.scss",
+"fontawesome/brands.scss"
