@@ -300,11 +300,11 @@
   .splash .contact-icons li:nth-child(#{$i}),
   .landing-content .about p:nth-child(#{$i}),
   .pagination span:nth-child(#{$i}) {
-    -webkit-animation: fadein .5s + $i/2; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein .5s + $i/2; /* Firefox < 16 */
-    -ms-animation: fadein .5s + $i/2; /* Internet Explorer */
-    -o-animation: fadein .5s + $i/2; /* Opera < 12.1 */
-    animation: fadein .5s + $i/2;
+    -webkit-animation: fadein .1s + $i/5; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein .1s + $i/5; /* Firefox < 16 */
+    -ms-animation: fadein .1s + $i/5; /* Internet Explorer */
+    -o-animation: fadein .1s + $i/5; /* Opera < 12.1 */
+    animation: fadein .1s + $i/5;
   }
 }
 
