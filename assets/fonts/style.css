@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'fontawesome-scss';
+  src:
+    url('fontawesome-scss.ttf?wfdkt9') format('truetype'),
+    url('fontawesome-scss.woff?wfdkt9') format('woff'),
+    url('fontawesome-scss.svg?wfdkt9#fontawesome-scss') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fontawesome-scss' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-envelope:before {
+  content: "\f003";
+}
+.fa-tags:before {
+  content: "\f02c";
+}
+.fa-linkedin:before {
+  content: "\f08c";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-github:before {
+  content: "\f09b";
+}
+.fa-rss:before {
+  content: "\f09e";
+}
+.fa-globe:before {
+  content: "\f0ac";
+}
+.fa-caret-left:before {
+  content: "\f0d9";
+}
+.fa-caret-right:before {
+  content: "\f0da";
+}
+.fa-stack-overflow:before {
+  content: "\f16c";
+}
