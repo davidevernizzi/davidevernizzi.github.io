@@ -1,4 +1,5 @@
 #!/bin/bash
+# usage bash new.sh title of the new post
 
 DATE=`date +%Y-%m-%d`
 FILENAME="$DATE-`echo $* | tr ' ' '-'`.markdown"
