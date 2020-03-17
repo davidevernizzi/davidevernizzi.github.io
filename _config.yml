@@ -18,6 +18,10 @@ collections:
     output: true
     permalink: /:collection/:name
 
+  journal:
+    output: true
+    permalink: /:collection/:name
+
   coverletters:
     output: true
     permalink: /:collection/:name
