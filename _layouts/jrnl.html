@@ -7,11 +7,11 @@ layout: default
   {{ content }}
 
   <ul class="post-list">
-    {% for til in site.tils %}
+    {% for j in site.jrnl %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <h2>
-          <a class="post-link" href="{{ til.url | relative_url }}">{{ til.title | escape | truncate: 50 }}</a>
+          <a class="post-link" href="{{ j.url | relative_url }}">{{ j.title | escape | truncate: 50 }}</a>
         </h2>
       </li>
     {% endfor %}
