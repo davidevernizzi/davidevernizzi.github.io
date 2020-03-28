@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "VisualStudio Code has compact folders enabled by defatul"
+date:   2020-03-29
+tags: []
+---
+
+I'm getting old, but I don't like new things that change old behaviours. I don't like the new compact folder in VisualStudio Code. Luckily it can be changed with the option `compactFolders`.
