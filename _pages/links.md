@@ -15,3 +15,7 @@ permalink: /links/
 ## Design
 
 * [A list of MIT licensed icons](https://github.com/tabler/tabler-icons/tree/master/icons-png). A github repo with a set of over 350 free MIT-licensed high-quality SVG icons for you to use in your web projects. Each icon is designed on a 24x24 grid and a 2px stroke. #icons
+
+## Security
+
+* [Evercookie](https://samy.pl/evercookie/). A project that creates a cookie very difficult to remove. #tracking #web
