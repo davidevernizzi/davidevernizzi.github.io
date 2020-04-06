@@ -12,6 +12,8 @@ permalink: /links/
 
 * [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/). A tool that analyzes the content of a web page, then generates suggestions to make that page faster. #speed
 
+* [SWR for React](https://swr.now.sh/). A library that implements the stale-while-revalidate data fetching approach. Very easy to use and integrate in react. #react #data-fetch
+
 ## Design
 
 * [A list of MIT licensed icons](https://github.com/tabler/tabler-icons/tree/master/icons-png). A github repo with a set of over 350 free MIT-licensed high-quality SVG icons for you to use in your web projects. Each icon is designed on a 24x24 grid and a 2px stroke. #icons
