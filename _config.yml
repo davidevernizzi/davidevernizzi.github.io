@@ -46,6 +46,7 @@ header_pages:
     #    - _pages/pictures.md
 
 #google_analytics: UA-57961528-1
+goat_counter: vernizzis
 
 plugins:
   - jekyll-feed
