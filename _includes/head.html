@@ -14,20 +14,15 @@
   {% endfor %}
 
   <!-- link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"-->
-  <!-- link rel="stylesheet" href="{{ "/assets/fonts/style.css" | relative_url }}"-->
+  <link rel="stylesheet" href="{{ "/assets/fonts/style.css" | relative_url }}">
 
-<style>
-{% include main.css %}
-</style>:
+  <style>
+  {% include main.css %}
+  </style>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
-
-
   {% if jekyll.environment == 'production' and site.goat_counter %}
   <script data-goatcounter="https://{{ site.goat_counter }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   {% endif %}
