@@ -5,9 +5,9 @@ date:   2020-04-10
 tags: []
 ---
 
-Maker schedule is different from manageer schedule.
+Programmers hate meetings. I know very few developers who are happy to be interrupted to go to meetings. While this might seem a diva attitute there is truth in this.
+There are a lot of posts online that deal with this topic; one of the most importan and significative is this post (http://www.paulgraham.com/makersschedule.html) by Paul Graham that discusses the difference between what he calls maker schedule from manager schedule. He claims that a single meeting can ruin a whole morning or a whole afternoon. This is completely true.
 
-link to PG post
 
 wasted afternoon image (at http://commadot.com/makers-schedule-managers-schedule/)
 
