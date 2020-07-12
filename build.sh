@@ -1,20 +1,9 @@
 #!/bin/sh
 
 # Init rbenv
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # Build site to get the gallery
-bundle exec jekyll build
+# bundle exec jekyll serve
 
-# Copy built gallery. This is needed because GitHub Pages will not allow building in remote
-mv pictures pictures.old
-cp -r _site/pictures ./
-
-# Git stuff
-git add pictures
-git commit -a -m $1
-git push
-
-# Put original pictures back (not needed?)
-#rm -rf pictures
-#mv pictures.old pictures
+docker run --rm --volume="$PWD:/srv/jekyll" --volume="$PWD/vendor/bundle:/usr/local/bundle" -p 4000:4000 -it jekyll/jekyll:3.8 jekyll build
