@@ -8,7 +8,7 @@
 
   {% for file in site.static_files %}
     {% if file.basename == 'favicon' %}
-      <link rel="icon" type="image/png" href="{{ file.path | relative_url }}">
+      <!-- link rel="icon" type="image/png" href="{{ file.path | relative_url }}"-->
       {% break %}
     {% endif %}
   {% endfor %}
