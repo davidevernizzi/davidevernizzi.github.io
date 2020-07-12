@@ -14,10 +14,7 @@
   {% endfor %}
 
   <!-- link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"-->
-  <!-- link rel="stylesheet" href="{{ "/assets/fonts/style.css" | relative_url }}"-->
-
-  <link rel="preload" href="/assets/fonts/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="/assets/fonts/style.css"></noscript>
+  <link rel="stylesheet" href="{{ "/assets/fonts/style.css" | relative_url }}">
 
   <style>
   {% include main.css %}
