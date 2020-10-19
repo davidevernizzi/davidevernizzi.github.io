@@ -1,0 +1,31 @@
+<html>
+  <body>
+    <form id="form">
+      <input value="https://rep.repubblica.it/pwa/intervista/2020/10/18/news/ricciardi_-271050258/" id="page" />
+      <input type="submit" onclick="r()" />
+
+      <div id='content'></div>
+    </form>
+
+    <script>
+      function myFunction(e) {
+        document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+      }
+
+      function r(e) {
+        console.log(e);
+        e.preventDefault();
+        const page = document.getElementById("page").value;
+        const url = `${page.replace("pwa", "ws/detail")}content.json`;
+        console.log('getting', url);
+        fetch(url)
+          .then((response) => response.json())
+          .then(json => document.getElementById("content").innerHTML = json[0].content)
+          .catch(error => console.error(error))
+      }
+
+      var form = document.getElementById("form");
+      form.addEventListener("submit", r, true);
+    </script>
+  </body>
+</html>
