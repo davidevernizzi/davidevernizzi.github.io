@@ -21,7 +21,7 @@ permalink: /wishlist/
     * ~~delle ciotole piccole e medie belle~~
     * delle ciotole per cucinare
     * macina sale e macina pepe
-    * una bistecchiera
+    * ~~una bistecchiera~~
     * una mandolina
     * un wok
     * mortaio e pestello di marmo
