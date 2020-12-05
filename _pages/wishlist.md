@@ -38,11 +38,12 @@ permalink: /wishlist/
 * ~~Contenitore per biscotti~~
 * [carta e inchiostro per scrivere con la stilografica](https://www.jetpens.com/blog/the-best-fountain-pen-paper/pt/730)
     * Inchiostro azzurro (Iroshizuku Kon-peki Ink)
+* Un portachiavi ([tipo questo](https://www.designrepublic.com/it/accessori-arredo-design/idee-regalo/cane-key-ring.html), ma non necessariamente questo)
 
-## Regali personali che vorrei ricevere e aprire solo con Robi e bimbi
+## Regali personali
 
 * una scacchiera per giocare con Anna
-* qualcosa che abbia a che fare con la mia fissa attuale (al momento corsa)
+* qualcosa che abbia a che fare con la mia fissa attuale (chiedere a Robi)
 * un corso di fotografia/cucina/scacchi
 
 ## Regali costosi
@@ -57,4 +58,4 @@ permalink: /wishlist/
 {% endcomment %}
 * ~~Apple AirPods~~
 * [Casper Light](https://casper.com/glow-light/)
-* Un abbonamento a [Masterclass](https://www.masterclass.com/gift)
+* ~~Un abbonamento a [Masterclass](https://www.masterclass.com/gift)~~
