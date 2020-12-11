@@ -34,11 +34,12 @@ permalink: /wishlist/
 * Abbonamento National Geographics
 * [Sveglia luce naturale](https://www.besty5.com/migliori-simulatori-alba/)
 * Radio da bagno
-* Abbonamento musei per Robi, Anna e me
+* Abbonamento musei per Robi, Anna, Cico e me
 * ~~Contenitore per biscotti~~
 * [carta e inchiostro per scrivere con la stilografica](https://www.jetpens.com/blog/the-best-fountain-pen-paper/pt/730)
     * Inchiostro azzurro (Iroshizuku Kon-peki Ink)
 * Un portachiavi ([tipo questo](https://www.designrepublic.com/it/accessori-arredo-design/idee-regalo/cane-key-ring.html), ma non necessariamente questo)
+* Moleskine grande
 
 ## Regali personali
 
