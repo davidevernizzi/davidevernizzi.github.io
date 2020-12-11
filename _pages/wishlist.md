@@ -7,6 +7,7 @@ permalink: /wishlist/
 ## Regali sempre apprezzati
 
 * vestiti che mi permettano di non andare a fare shopping
+* guanti di pelle caldi ed impermeabili
 * libri
 * poster o fotografie o libri di fotografia
 * ~~zaino~~
@@ -43,7 +44,7 @@ permalink: /wishlist/
 
 ## Regali personali
 
-* una scacchiera per giocare con Anna
+* ~~una scacchiera per giocare con Anna~~
 * qualcosa che abbia a che fare con la mia fissa attuale (chiedere a Robi)
 * un corso di fotografia/cucina/scacchi
 
