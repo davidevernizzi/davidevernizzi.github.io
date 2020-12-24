@@ -6,6 +6,8 @@ permalink: /wishlist/
 
 ## Regali sempre apprezzati
 
+* Una donazione ad [Emergency](https://sostieni.emergency.it/index.php)
+* [Un albero](https://www.treedom.net/it/)
 * vestiti che mi permettano di non andare a fare shopping
 * guanti di pelle caldi ed impermeabili
 * libri
@@ -44,6 +46,7 @@ permalink: /wishlist/
 * Un portachiavi ([tipo questo](https://www.designrepublic.com/it/accessori-arredo-design/idee-regalo/cane-key-ring.html), ma non necessariamente questo)
 * Moleskine grande
 * Un abbonamento a [Il Post](https://abbonati.ilpost.it)
+* Una [curiosity box](https://www.curiositybox.com)
 
 ## Regali personali
 
