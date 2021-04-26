@@ -4,7 +4,7 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
-      <a class="site-title"href="{{ "/" | relative_url }}">
+    <a class="site-title"href="{{ "/" | relative_url }}">
       {% for file in site.static_files %}
         {% if file.basename == 'logo' %}
         <img class="site-logo" src="{{ file.path | relative_url }}" alt="site logo" />
@@ -29,6 +29,7 @@
         </label>
 
         <div class="trigger">
+          <a class="page-link "style="color:#4586ff" href="https://saasform.dev">Saasform</a>
           {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
             {% if my_page.title %}
