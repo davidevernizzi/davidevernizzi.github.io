@@ -17,6 +17,10 @@
   id: experience
   layout: experience
 
+- name: Publications
+  id: publications
+  layout: publications
+
 - name: Education
   id: education
   layout: education
