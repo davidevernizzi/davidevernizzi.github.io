@@ -1,17 +1,3 @@
-- Enterprise:
-    primary:
-        - Pega CSA
-        - Pega CSSA
-        - Experience with design of CRM systems
-        - Integration of enterprise systems
-        - Veeva
-- Frontend development:
-    primary:
-        - JavaScript
-        - React.js
-        - React Native
-        - ClojureScript
-        - HTML/CSS
 - Backend development:
     primary:
         - Clojure
@@ -26,6 +12,13 @@
         - REST
         - GraphQL
         - Microservice architecture
+- Frontend development:
+    primary:
+        - JavaScript
+        - React.js
+        - React Native
+        - ClojureScript
+        - HTML/CSS
 - Devops:
     primary:
         - AWS stack
@@ -37,3 +30,10 @@
         - Vagrant
         - Linux
         - Bash
+- Enterprise:
+    primary:
+        - Pega CSA
+        - Pega CSSA
+        - Experience with design of CRM systems
+        - Integration of enterprise systems
+        - Veeva
