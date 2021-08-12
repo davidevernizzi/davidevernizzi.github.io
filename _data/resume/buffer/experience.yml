@@ -1,0 +1,43 @@
+- org:  Saasform Inc
+  role: Co-founder
+  when: Jan 2021 - present
+  short: Saasform is a SaaS started kit that provides SaaS developers with a framework to securely handle user authentication, team management, and payments. I began working on Saasform in the middle of 2019 and started as a full-time founder at the beginning of 2021.
+  bullets: 
+      - designed and written a large part of the code of Saasform
+      - managed and refactored the whole architecture (GitHub actions, LGTM.io/codecov.io integration, AWS deployment procedure)
+      - carried on several side activities such as marketing, community, fundraising
+      - supported the first users of Saasform
+
+- org:  Etiqa SRL
+  role: Lead Developer
+  when: Jan 2016 - Dec 2020
+  short: Etiqa is a software development company focused on providing quality products in business-critical projects. It operates in areas such as healthcare, automotive, and the gaming industry. 
+  bullets: 
+    - handled most of the backend-related work for their biggest projects
+    - written code, designed infrastructure, and handled production
+    - senior developer/tech leader for several projects with healthcare US customers
+    - created a supply chain monitoring system based on a blockchain using Hyperledger Fabric
+    - reviewed and enhanced the security of their existing projects
+    - been the reference person for any security-related issue
+
+- org:  Ennova SRL
+  role: Full Stack Developer
+  when: Nov 2011 - Jan 2016
+  short: Ennova is a technology company that targets the digital transformation of enterprise businesses. It has streamlined many processes for companies operating in telecommunications and as energy utilities.
+  bullets: 
+    - helped Ennova to scale from 4 to 30+ developers
+    - been in charge of developing and evolving their AWS infrastructure
+    - actively designed and developed the core technology used by Ennova in their projects
+    - lead a team of 4 developers, 1 UX designer, 1 BA
+    - been managing several clients
+    - trained the new hires
+
+- org:  Politecnico di Torino, Computer security research group (TORSEC)
+  role: Research assistant
+  when: Mar 2010 - May 2012
+  short: TORSEC is the research group of Politecnico di Torino that works in computer security.
+  bullets: 
+    - done research on the topic of trusted computing and the security of cloud computing
+    - written several research papers
+    - participated in 2 European research projects and co-lead 1
+    - advised many master thesis

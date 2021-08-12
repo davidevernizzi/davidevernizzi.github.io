@@ -1,0 +1,40 @@
+- Backend development: 
+    primary:
+        - Clojure
+        - Ruby on Rails
+        - Node.js
+        - Python
+        - PHP
+        - Java
+        - MySQL
+        - MongoDB
+        - RabbitMQ
+        - REST
+        - GraphQL
+        - Microservice architecture
+- Frontend development:
+    primary:
+        - TypeScript
+        - JavaScript
+        - React.js
+        - React Native
+        - ClojureScript
+        - HTML/CSS
+- Devops:
+    primary:
+        - AWS stack
+        - Docker
+        - Kubernetes
+        - CI/CD
+        - Jenkins
+        - GitHub actions
+        - Chef.io
+        - Vagrant
+        - Linux
+        - Bash
+- Enterprise:
+    primary:
+        - Pega CSA
+        - Pega CSSA
+        - CRM systems
+        - Integration of enterprise systems

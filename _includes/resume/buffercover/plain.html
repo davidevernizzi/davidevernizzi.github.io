@@ -1,0 +1,19 @@
+{% for section_hash in blurb %}
+
+<section class="heading">
+    <header>
+        <h1>{{ section_hash.name }}</h1>
+        <div class="contact">
+            <span class="detail">
+                <a href="mailto://{{ section_hash.email }}" > {{ section_hash.email }} </a>
+            </span>
+            <span class="detail">
+                <a href="https://{{ section_hash.site }}"> {{ section_hash.site }} </a>
+            </span>
+        </div>
+
+        <p><p> {{ section_hash.bio }} </p></p>
+    </header>
+</section>
+
+{% endfor %}
