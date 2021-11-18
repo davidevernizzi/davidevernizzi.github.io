@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wishlist
-permalink: /wishlist/
+permalink: /d2lzaGxpc3QK/
 ---
 
 ## Regali sempre apprezzati
