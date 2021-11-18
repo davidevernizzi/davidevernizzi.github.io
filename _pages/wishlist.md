@@ -19,7 +19,7 @@ permalink: /d2lzaGxpc3QK/
 * qualunque cosa per cucinare. In particolare ci mancano:
     * ~~colino tutto di metallo~~
     * ~~uno scolapasta tutto di metallo~~
-    * [Macchina per sous-vide](https://www.amazon.it/Sous-Vide-Stick-generazione-temperatura/dp/B01N5K7U2D/)
+    * ~~[Macchina per sous-vide](https://www.amazon.it/Sous-Vide-Stick-generazione-temperatura/dp/B01N5K7U2D/)~~
     * ~~una pentola a pressione~~ 
     * ~~delle ciotole piccole e medie belle~~
     * delle ciotole per cucinare
@@ -38,14 +38,14 @@ permalink: /d2lzaGxpc3QK/
 * Biglietti per l'opera, il teatro o il cinema
 * Abbonamento National Geographics
 * [Sveglia luce naturale](https://www.besty5.com/migliori-simulatori-alba/)
-* Radio da bagno
+* ~~Radio da bagno~~
 * Abbonamento musei per Robi, Anna, Cico e me
 * ~~Contenitore per biscotti~~
 * [carta e inchiostro per scrivere con la stilografica](https://www.jetpens.com/blog/the-best-fountain-pen-paper/pt/730)
     * Inchiostro azzurro (Iroshizuku Kon-peki Ink)
 * Un portachiavi ([tipo questo](https://www.designrepublic.com/it/accessori-arredo-design/idee-regalo/cane-key-ring.html), ma non necessariamente questo)
-* Moleskine grande
-* Un abbonamento a [Il Post](https://abbonati.ilpost.it)
+* lechtrum 1917 a5 **a puntini**
+* ~~Un abbonamento a [Il Post](https://abbonati.ilpost.it)~~
 * Una [curiosity box](https://www.curiositybox.com)
 
 ## Regali personali
@@ -56,14 +56,13 @@ permalink: /d2lzaGxpc3QK/
 
 ## Regali costosi
 
-* [Questa tastiera con switch Cherry MX Blue](https://www.wasdkeyboards.com/index.php/products/code-keyboard/code-104-key-mechanical-keyboard-2930.html)
+* ~~[Questa tastiera con switch Cherry MX Blue](https://www.wasdkeyboards.com/index.php/products/code-keyboard/code-104-key-mechanical-keyboard-2930.html)~~
 * attrezzatura fotografica
     * Olympus M.ZUIKO Digital 17mm f/1.8 Argento
     * Panasonic LUMIX G 25 mm/F1.7 ASPH SLR Argento
 * Viaggi
 {% comment %}
-* Apple HomePod
+* Apple HomePod Mini
 {% endcomment %}
 * ~~Apple AirPods~~
-* [Casper Light](https://casper.com/glow-light/)
 * ~~Un abbonamento a [Masterclass](https://www.masterclass.com/gift)~~
