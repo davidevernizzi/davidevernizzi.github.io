@@ -9,7 +9,7 @@ permalink: /wishlist
 * Una donazione ad [Emergency](https://sostieni.emergency.it/index.php)
 * [Un albero](https://www.treedom.net/it/)
 * vestiti che mi permettano di non andare a fare shopping
-* guanti di pelle caldi ed impermeabili
+* ~~guanti di pelle caldi ed impermeabili~~
 * libri
 * poster o fotografie o libri di fotografia
 * ~~zaino~~
@@ -43,7 +43,7 @@ permalink: /wishlist
 * ~~Contenitore per biscotti~~
 * [carta e inchiostro per scrivere con la stilografica](https://www.jetpens.com/blog/the-best-fountain-pen-paper/pt/730)
     * Inchiostro azzurro (Iroshizuku Kon-peki Ink)
-* Un portachiavi ([tipo questo](https://www.designrepublic.com/it/accessori-arredo-design/idee-regalo/cane-key-ring.html), ma non necessariamente questo)
+* ~~Un portachiavi ([tipo questo](https://www.designrepublic.com/it/accessori-arredo-design/idee-regalo/cane-key-ring.html), ma non necessariamente questo)~~
 * lechtrum 1917 a5 **a puntini**
 * ~~Un abbonamento a [Il Post](https://abbonati.ilpost.it)~~
 * Una [curiosity box](https://www.curiositybox.com)
