@@ -62,7 +62,7 @@ permalink: /wishlist/
     * Panasonic LUMIX G 25 mm/F1.7 ASPH SLR Argento
 * Viaggi
 {% comment %}
-* Apple HomePod Mini
+* [Apple HomePod Mini](https://www.apple.com/it/homepod-mini/)
 {% endcomment %}
 * ~~Apple AirPods~~
 * ~~Un abbonamento a [Masterclass](https://www.masterclass.com/gift)~~
