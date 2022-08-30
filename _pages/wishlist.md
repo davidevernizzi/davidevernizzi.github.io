@@ -12,6 +12,7 @@ permalink: /wishlist/
 * libri
 * poster o fotografie o libri di fotografia
 * cibo
+* te in foglie buono
 * Calze da sci
 * Biglietti per l'opera, il teatro o il cinema
 * Sveglia luce naturale
@@ -19,10 +20,18 @@ permalink: /wishlist/
    * Inchiostro azzurro (Iroshizuku Kon-peki Ink)
    * Rhodia a5 **a puntini**
 * Una [curiosity box](https://www.curiositybox.com)
+* Delle scarpe impermeabili invernali da indossare in città tutti i giorni, tipo [Scarpa](https://it.scarpa.com/product/21652230/mojito-lifestyle-per-il-tempo-libero-sport-viaggi-antracite), ma non necessariamente quelle
+* Dei sandali
+* Una livella laser ([tipo questa, ma non necessariamente questa](https://www.amazon.it/gp/product/B07QXSGNYH?ie=UTF8&psc=1&linkCode=sl1&tag=0721-01-21&linkId=d5b8c01aee46432f4f30aeb9a109956f&language=it_IT&ref_=as_li_ss_tl))
+* [Degli AirTag](https://www.apple.com/it/airtag/)
+* Una cintura porta attrezzi
+* Second skin in lana merino
 * qualunque cosa per cucinare. In particolare ci mancano:
     * delle ciotole per cucinare
     * macina sale e macina pepe
     * una mandolina
+    * [una cuociriso](https://www.ilpost.it/2022/05/24/cuociriso/)
+    * Una brocca o bottiglia per l'acqua
     * ~~colino tutto di metallo~~
     * ~~uno scolapasta tutto di metallo~~
     * ~~[Macchina per sous-vide](https://www.amazon.it/Sous-Vide-Stick-generazione-temperatura/dp/B01N5K7U2D/)~~
@@ -61,6 +70,7 @@ permalink: /wishlist/
     * Panasonic LUMIX G 25 mm/F1.7 ASPH SLR Argento
 * Viaggi
 * [Apple HomePod Mini](https://www.apple.com/it/homepod-mini/)
+* [Apple TV 4K](https://www.apple.com/it/apple-tv-4k/)
 * ~~Apple AirPods~~
 * ~~Un abbonamento a [Masterclass](https://www.masterclass.com/gift)~~
 * ~~[Questa tastiera con switch Cherry MX Blue](https://www.wasdkeyboards.com/index.php/products/code-keyboard/code-104-key-mechanical-keyboard-2930.html)~~
