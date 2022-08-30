@@ -6,32 +6,34 @@ permalink: /wishlist/
 
 ## Regali sempre apprezzati
 
-* Una donazione ad [Emergency](https://sostieni.emergency.it/index.php)
-* [Un albero](https://www.treedom.net/it/)
+* una donazione ad [Emergency](https://sostieni.emergency.it/index.php)
+* [un albero](https://www.treedom.net/it/)
 * vestiti che mi permettano di non andare a fare shopping
 * libri
 * poster o fotografie o libri di fotografia
 * cibo
 * te in foglie buono
-* Calze da sci
-* Biglietti per l'opera, il teatro o il cinema
-* Sveglia luce naturale
+* calze da sci
+* biglietti per l'opera, il teatro o il cinema
+* sveglia luce naturale
 * [carta e inchiostro per scrivere con la stilografica](https://www.jetpens.com/blog/the-best-fountain-pen-paper/pt/730)
    * Inchiostro azzurro (Iroshizuku Kon-peki Ink)
    * Rhodia a5 **a puntini**
-* Una [curiosity box](https://www.curiositybox.com)
-* Delle scarpe impermeabili invernali da indossare in città tutti i giorni, tipo [Scarpa](https://it.scarpa.com/product/21652230/mojito-lifestyle-per-il-tempo-libero-sport-viaggi-antracite), ma non necessariamente quelle
-* Dei sandali
-* Una livella laser ([tipo questa, ma non necessariamente questa](https://www.amazon.it/gp/product/B07QXSGNYH?ie=UTF8&psc=1&linkCode=sl1&tag=0721-01-21&linkId=d5b8c01aee46432f4f30aeb9a109956f&language=it_IT&ref_=as_li_ss_tl))
-* [Degli AirTag](https://www.apple.com/it/airtag/)
-* Una cintura porta attrezzi
-* Second skin in lana merino
+* una [curiosity box](https://www.curiositybox.com)
+* delle scarpe impermeabili invernali da indossare in città tutti i giorni, tipo [Scarpa](https://it.scarpa.com/product/21652230/mojito-lifestyle-per-il-tempo-libero-sport-viaggi-antracite), ma non necessariamente quelle
+* dei sandali
+* un cuscino piccolo in memory foam (chiedere a Robi com'è il suo)
+* una livella laser ([tipo questa](https://www.amazon.it/gp/product/B07QXSGNYH?ie=UTF8&psc=1&linkCode=sl1&tag=0721-01-21&linkId=d5b8c01aee46432f4f30aeb9a109956f&language=it_IT&ref_=as_li_ss_tl), ma non necessariamente questa)
+* [degli AirTag](https://www.apple.com/it/airtag/)
+* una cintura porta attrezzi
+* second skin in lana merino
 * qualunque cosa per cucinare. In particolare ci mancano:
     * delle ciotole per cucinare
     * macina sale e macina pepe
     * una mandolina
     * [una cuociriso](https://www.ilpost.it/2022/05/24/cuociriso/)
-    * Una brocca o bottiglia per l'acqua
+    * una brocca o bottiglia per l'acqua
+    * un pelapatate
     * ~~colino tutto di metallo~~
     * ~~uno scolapasta tutto di metallo~~
     * ~~[Macchina per sous-vide](https://www.amazon.it/Sous-Vide-Stick-generazione-temperatura/dp/B01N5K7U2D/)~~
