@@ -12,10 +12,6 @@ permalink: /wishlist/
 * libri
 * poster o fotografie o libri di fotografia
 * cibo
-* ~~guanti di pelle caldi ed impermeabili~~
-* ~~zaino~~
-* ~~un grattaschiena~~
-* ~~un tagliere grosso di legno per cucinare da tenere sempre sul piano della cucina~~
 * Calze da sci
 * Biglietti per l'opera, il teatro o il cinema
 * Sveglia luce naturale
@@ -47,6 +43,10 @@ permalink: /wishlist/
 * ~~Contenitore per biscotti~~
 * ~~Un portachiavi ([tipo questo](https://www.designrepublic.com/it/accessori-arredo-design/idee-regalo/cane-key-ring.html), ma non necessariamente questo)~~
 * ~~Un abbonamento a [Il Post](https://abbonati.ilpost.it)~~
+* ~~guanti di pelle caldi ed impermeabili~~
+* ~~zaino~~
+* ~~un grattaschiena~~
+* ~~un tagliere grosso di legno per cucinare da tenere sempre sul piano della cucina~~
 
 ## Regali personali
 
