@@ -17,8 +17,8 @@ permalink: /wishlist/
 * calze da sci
 * biglietti per l'opera, il teatro o il cinema
 * sveglia luce naturale
-* [carta e inchiostro per scrivere con la stilografica](https://www.jetpens.com/blog/the-best-fountain-pen-paper/pt/730)
-   * Inchiostro azzurro (Iroshizuku Kon-peki Ink)
+* carta e inchiostro per scrivere con la stilografica
+   * Inchiostro azzurro (Iroshizuku Shin-Kai)
    * Rhodia a5 **a puntini**
 * una [curiosity box](https://www.curiositybox.com)
 * delle scarpe impermeabili invernali da indossare in città tutti i giorni, tipo [Scarpa](https://it.scarpa.com/product/21652230/mojito-lifestyle-per-il-tempo-libero-sport-viaggi-antracite), ma non necessariamente quelle
