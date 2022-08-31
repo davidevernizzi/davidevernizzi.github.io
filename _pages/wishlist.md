@@ -12,6 +12,7 @@ permalink: /wishlist/
 * libri
 * poster o fotografie o libri di fotografia
 * cibo
+* una cena fuori con Robi
 * te in foglie buono
 * calze da sci
 * biglietti per l'opera, il teatro o il cinema
@@ -27,6 +28,7 @@ permalink: /wishlist/
 * [degli AirTag](https://www.apple.com/it/airtag/)
 * una cintura porta attrezzi
 * second skin in lana merino
+* un plaid in lana
 * qualunque cosa per cucinare. In particolare ci mancano:
     * delle ciotole per cucinare
     * macina sale e macina pepe
@@ -73,6 +75,7 @@ permalink: /wishlist/
 * Viaggi
 * [Apple HomePod Mini](https://www.apple.com/it/homepod-mini/)
 * [Apple TV 4K](https://www.apple.com/it/apple-tv-4k/)
+* [AirPod 3rd generation](https://www.apple.com/it/airpods-3rd-generation/)
 * ~~Apple AirPods~~
 * ~~Un abbonamento a [Masterclass](https://www.masterclass.com/gift)~~
 * ~~[Questa tastiera con switch Cherry MX Blue](https://www.wasdkeyboards.com/index.php/products/code-keyboard/code-104-key-mechanical-keyboard-2930.html)~~
