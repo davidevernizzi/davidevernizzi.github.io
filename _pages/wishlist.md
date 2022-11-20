@@ -35,8 +35,9 @@ permalink: /wishlist/
     * macina sale e macina pepe
     * una mandolina
     * [una cuociriso](https://www.ilpost.it/2022/05/24/cuociriso/)
-    * una brocca o bottiglia per l'acqua
+    * brocche o bottiglie acqua gasata e naturale
     * un pelapatate
+    * bottigliette per mettere aceto balsamico, aceto bianco e aceto rosso
     * ~~colino tutto di metallo~~
     * ~~uno scolapasta tutto di metallo~~
     * ~~[Macchina per sous-vide](https://www.amazon.it/Sous-Vide-Stick-generazione-temperatura/dp/B01N5K7U2D/)~~
@@ -74,7 +75,8 @@ permalink: /wishlist/
     * Olympus M.ZUIKO Digital 17mm f/1.8 Argento
     * Panasonic LUMIX G 25 mm/F1.7 ASPH SLR Argento
 * Viaggi
-* [Apple HomePod Mini](https://www.apple.com/it/homepod-mini/)
+* Uscite in barca a vela
+* [Apple HomePod Mini](https://www.apple.com/it/homepod-mini/) (bianco, giallo o blu)
 * [Apple TV 4K](https://www.apple.com/it/apple-tv-4k/)
 * [AirPod 3rd generation](https://www.apple.com/it/airpods-3rd-generation/)
 * ~~Apple AirPods~~
