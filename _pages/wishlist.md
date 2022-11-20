@@ -14,7 +14,6 @@ permalink: /wishlist/
 * cibo
 * una cena fuori con Robi
 * te in foglie buono
-* calze da sci
 * uno zaino da montagna (più come [questo](https://www.thenorthface.it/shop/it/tnf-it/borse-e-tende-zaini-zaini/zaino-tecnico-da-trekking-terra-da-55-litri-3ga6?variationId=WMB) che come [quello che ho già](https://www.thenorthface.it/shop/it/tnf-it/borse-e-tende-zaini-zaini/zaino-borealis-classic-cf9c?variationId=8M9))
 * biglietti per l'opera, il teatro o il cinema
 * sveglia luce naturale
@@ -62,6 +61,7 @@ permalink: /wishlist/
 * ~~zaino~~
 * ~~un grattaschiena~~
 * ~~un tagliere grosso di legno per cucinare da tenere sempre sul piano della cucina~~
+* ~~calze da sci~~
 
 ## Regali personali
 
