@@ -30,13 +30,14 @@ permalink: /wishlist/
 * second skin in lana merino
 * un plaid in lana
 * qualunque cosa per cucinare. In particolare ci mancano:
-    * delle ciotole per cucinare
+    * dopo anni di onorato servizio il tostapane si è rotto. Forse questa volta vorrei più una [panini press](https://www.amazon.it/s?k=panini+press&crid=30TZ52OI7DF7X&sprefix=panini+press%2Caps%2C191&ref=nb_sb_ss_ts-doa-p_1_12)
+    * delle ciotole per cucinare che resistano ad alte temperature
     * macina sale e macina pepe
-    * una mandolina
     * [una cuociriso](https://www.ilpost.it/2022/05/24/cuociriso/)
     * brocche o bottiglie acqua gasata e naturale
     * un pelapatate
     * bottigliette per mettere aceto balsamico, aceto bianco e aceto rosso
+    * ~~una mandolina~~
     * ~~colino tutto di metallo~~
     * ~~uno scolapasta tutto di metallo~~
     * ~~[Macchina per sous-vide](https://www.amazon.it/Sous-Vide-Stick-generazione-temperatura/dp/B01N5K7U2D/)~~
