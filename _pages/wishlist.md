@@ -32,6 +32,7 @@ permalink: /wishlist/
     * bottigliette per mettere aceto balsamico, aceto bianco e aceto rosso
     * cestini in bambu per cuocere al vapore
     * il tagliere grosso in legno sta dando segni di cedimento, quindi potrebbe essere una buona idea sostituirlo
+    * una pentola da pasta con scolapasta integrato
     * ~~brocche o bottiglie acqua gasata e naturale~~
     * ~~un pelapatate~~
     * ~~macina sale e macina pepe~~
