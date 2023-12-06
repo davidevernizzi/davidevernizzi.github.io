@@ -12,6 +12,7 @@ permalink: /wishlist/
 * libri
 * [poster](https://shop.ciaodiscotecaitaliana.com/) o fotografie o libri di fotografia
 * cibo
+* dei giochi da tavola da giocare coi ragazzi
 * una cena fuori con Robi
 * te in foglie buono
 * biglietti per l'opera, il teatro o il cinema
