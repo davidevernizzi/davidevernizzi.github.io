@@ -32,10 +32,10 @@ permalink: /wishlist/
     * bottigliette per mettere aceto balsamico, aceto bianco e aceto rosso
     * cestini in bambu per cuocere al vapore
     * il tagliere grosso in legno sta dando segni di cedimento, quindi potrebbe essere una buona idea sostituirlo
-    * ~~ brocche o bottiglie acqua gasata e naturale ~~
-    * ~~ un pelapatate ~~
-    * ~~ macina sale e macina pepe ~~
-    * ~~ dopo anni di onorato servizio il tostapane si è rotto. Forse questa volta vorrei più una [panini press](https://www.amazon.it/s?k=panini+press&crid=30TZ52OI7DF7X&sprefix=panini+press%2Caps%2C191&ref=nb_sb_ss_ts-doa-p_1_12) ~~
+    * ~~brocche o bottiglie acqua gasata e naturale~~
+    * ~~un pelapatate~~
+    * ~~macina sale e macina pepe~~
+    * ~~dopo anni di onorato servizio il tostapane si è rotto. Forse questa volta vorrei più una [panini press](https://www.amazon.it/s?k=panini+press&crid=30TZ52OI7DF7X&sprefix=panini+press%2Caps%2C191&ref=nb_sb_ss_ts-doa-p_1_12)~~
     * ~~una mandolina~~
     * ~~colino tutto di metallo~~
     * ~~uno scolapasta tutto di metallo~~
@@ -62,12 +62,12 @@ permalink: /wishlist/
 * ~~un grattaschiena~~
 * ~~un tagliere grosso di legno per cucinare da tenere sempre sul piano della cucina~~
 * ~~calze da sci~~
-  ~~ uno zaino da montagna (più come [questo](https://www.thenorthface.it/shop/it/tnf-it/borse-e-tende-zaini-zaini/zaino-tecnico-da-trekking-terra-da-55-litri-3ga6?variationId=WMB) che come [quello che ho già](https://www.thenorthface.it/shop/it/tnf-it/borse-e-tende-zaini-zaini/zaino-borealis-classic-cf9c?variationId=8M9)) ~~
-* ~~ un cuscino piccolo in memory foam (chiedere a Robi com'è il suo) ~~
-* ~~ una livella laser ([tipo questa](https://www.amazon.it/gp/product/B07QXSGNYH?ie=UTF8&psc=1&linkCode=sl1&tag=0721-01-21&linkId=d5b8c01aee46432f4f30aeb9a109956f&language=it_IT&ref_=as_li_ss_tl), ma non necessariamente questa) ~~
-* ~~ [degli AirTag](https://www.apple.com/it/airtag/) ~~
-* ~~ un plaid in lana ~~
-* ~~ sveglia luce naturale ~~
+  ~~uno zaino da montagna (più come [questo](https://www.thenorthface.it/shop/it/tnf-it/borse-e-tende-zaini-zaini/zaino-tecnico-da-trekking-terra-da-55-litri-3ga6?variationId=WMB) che come [quello che ho già](https://www.thenorthface.it/shop/it/tnf-it/borse-e-tende-zaini-zaini/zaino-borealis-classic-cf9c?variationId=8M9))~~
+* ~~un cuscino piccolo in memory foam (chiedere a Robi com'è il suo)~~
+* ~~una livella laser ([tipo questa](https://www.amazon.it/gp/product/B07QXSGNYH?ie=UTF8&psc=1&linkCode=sl1&tag=0721-01-21&linkId=d5b8c01aee46432f4f30aeb9a109956f&language=it_IT&ref_=as_li_ss_tl), ma non necessariamente questa)~~
+* ~~[degli AirTag](https://www.apple.com/it/airtag/)~~
+* ~~un plaid in lana~~
+* ~~sveglia luce naturale~~
 
 ## Regali personali
 
@@ -84,7 +84,7 @@ permalink: /wishlist/
 * Uscite in barca a vela
 * [Apple HomePod Mini](https://www.apple.com/it/homepod-mini/) (bianco, giallo o blu)
 * [Apple TV 4K](https://www.apple.com/it/apple-tv-4k/)
-* ~~ [AirPod 3rd generation](https://www.apple.com/it/airpods-3rd-generation/) ~~
+* ~~[AirPod 3rd generation](https://www.apple.com/it/airpods-3rd-generation/)~~
 * ~~Apple AirPods~~
 * ~~Un abbonamento a [Masterclass](https://www.masterclass.com/gift)~~
 * ~~[Questa tastiera con switch Cherry MX Blue](https://www.wasdkeyboards.com/index.php/products/code-keyboard/code-104-key-mechanical-keyboard-2930.html)~~
