@@ -28,7 +28,7 @@ permalink: /wishlist/
 * second skin in lana merino
 * qualunque cosa per cucinare. In particolare ci mancano:
     * delle ciotole per cucinare che resistano ad alte temperature e al forno
-    * delle ciotole belle in cui mettere cose. In particolare potrebbe essere interessante risolvere il problema della frutta che resta esposta in 3/4 ciotole ogni volta
+    * delle ciotole belle in cui mettere cose
     * [una cuociriso](https://www.ilpost.it/2022/05/24/cuociriso/)
     * bottigliette per mettere aceto balsamico, aceto bianco e aceto rosso
     * cestini in bambu per cuocere al vapore
