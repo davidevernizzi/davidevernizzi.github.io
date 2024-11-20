@@ -20,19 +20,19 @@ permalink: /wishlist/
    * Inchiostro azzurro (Iroshizuku Shin-Kai)
    * Rhodia a5 **a puntini**
 * una [curiosity box](https://www.curiositybox.com)
-* delle scarpe impermeabili invernali da indossare in città tutti i giorni, tipo [Scarpa](https://it.scarpa.com/product/21652230/mojito-lifestyle-per-il-tempo-libero-sport-viaggi-antracite), ma non necessariamente quelle. Per Scarpa porto il 44
+* ~~delle scarpe impermeabili invernali da indossare in città tutti i giorni, tipo [Scarpa](https://it.scarpa.com/product/21652230/mojito-lifestyle-per-il-tempo-libero-sport-viaggi-antracite), ma non necessariamente quelle. Per Scarpa porto il 44~~
 * dei sandali
-* una borraccia termica con cannuccia, tipo [questa](https://www.amazon.it/OLDLEY-Borraccia-cannuccia-borraccia-mantenere/dp/B09N6D7NQ8/ref=sr_1_16?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1ZDMLMYNBK8C4&keywords=thermos%2Bcannuccia&qid=1701900534&sprefix=thermos%2Bcannuccia%2Caps%2C107&sr=8-16&th=1), ma non necessariamente questa. Ho intenzione di usarla soprattutto con bevande calde
+* ~~una borraccia termica con cannuccia, tipo [questa](https://www.amazon.it/OLDLEY-Borraccia-cannuccia-borraccia-mantenere/dp/B09N6D7NQ8/ref=sr_1_16?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1ZDMLMYNBK8C4&keywords=thermos%2Bcannuccia&qid=1701900534&sprefix=thermos%2Bcannuccia%2Caps%2C107&sr=8-16&th=1), ma non necessariamente questa. Ho intenzione di usarla soprattutto con bevande calde~~
 * forse sarebbe bello avere un altro trolley grande, tipo quello a pallini che già abbiamo. Chiedete a Robi in caso
 * una cintura porta attrezzi
-* second skin in lana merino
+* ~~second skin in lana merino~~
 * qualunque cosa per cucinare. In particolare ci mancano:
     * delle ciotole per cucinare che resistano ad alte temperature e al forno
     * delle ciotole belle in cui mettere cose
     * [una cuociriso](https://www.ilpost.it/2022/05/24/cuociriso/)
     * bottigliette per mettere aceto balsamico, aceto bianco e aceto rosso
     * cestini in bambu per cuocere al vapore
-    * il tagliere grosso in legno sta dando segni di cedimento, quindi potrebbe essere una buona idea sostituirlo
+    * ~~il tagliere grosso in legno sta dando segni di cedimento, quindi potrebbe essere una buona idea sostituirlo~~
     * una pentola da pasta con scolapasta integrato
     * ~~brocche o bottiglie acqua gasata e naturale~~
     * ~~un pelapatate~~
