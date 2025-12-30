@@ -1,3 +1,10 @@
+---
+layout: page
+title: Coworking
+permalink: /coworking/
+---
+
+
 # Versione breve
 
 Vado al coworking soprattutto per evitare distrazioni e interruzioni.
